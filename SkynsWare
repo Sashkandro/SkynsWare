@@ -190,7 +190,7 @@ local ScreenGui = {
 	TextButton_3 = Instance.new("TextButton"),
 	book = Instance.new("ImageButton"),
 	keysystem = Instance.new("Frame"),
-	keysystem_2 = Instance.new("Frame"),
+	keysystemui = Instance.new("Frame"),
 	Frame_35 = Instance.new("Frame"),
 	UICorner_67 = Instance.new("UICorner"),
 	TextLabel_39 = Instance.new("TextLabel"),
@@ -216,6 +216,100 @@ local ScreenGui = {
 	TextBox = Instance.new("TextBox"),
 	UICorner_72 = Instance.new("UICorner"),
 	TextLabel_51 = Instance.new("TextLabel"),
+	notkeysystem = Instance.new("Frame"),
+	Frame_38 = Instance.new("Frame"),
+	UICorner_73 = Instance.new("UICorner"),
+	TextLabel_52 = Instance.new("TextLabel"),
+	TextLabel_53 = Instance.new("TextLabel"),
+	TextLabel_54 = Instance.new("TextLabel"),
+	Frame_39 = Instance.new("Frame"),
+	UICorner_74 = Instance.new("UICorner"),
+	TextLabel_55 = Instance.new("TextLabel"),
+	TextLabel_56 = Instance.new("TextLabel"),
+	Frame_40 = Instance.new("Frame"),
+	UICorner_75 = Instance.new("UICorner"),
+	TextLabel_57 = Instance.new("TextLabel"),
+	TextLabel_58 = Instance.new("TextLabel"),
+	TextLabel_59 = Instance.new("TextLabel"),
+	TextLabel_60 = Instance.new("TextLabel"),
+	TextLabel_61 = Instance.new("TextLabel"),
+	TextButtonui = Instance.new("TextButton"),
+	UICorner_76 = Instance.new("UICorner"),
+	TextButton_6 = Instance.new("TextButton"),
+	UICorner_77 = Instance.new("UICorner"),
+	TextLabel_62 = Instance.new("TextLabel"),
+	gui = Instance.new("Frame"),
+	Name = Instance.new("Frame"),
+	Name_2 = Instance.new("TextLabel"),
+	polymer = Instance.new("ImageButton"),
+	Menu_2 = Instance.new("Frame"),
+	Scripts = Instance.new("TextButton"),
+	DPAD = Instance.new("ImageButton"),
+	Credits = Instance.new("TextButton"),
+	people = Instance.new("ImageButton"),
+	Settings = Instance.new("TextButton"),
+	settings = Instance.new("ImageButton"),
+	Updates = Instance.new("TextButton"),
+	note_2 = Instance.new("ImageButton"),
+	SettingsFrame = Instance.new("Frame"),
+	TextLabel_63 = Instance.new("TextLabel"),
+	TextLabel_64 = Instance.new("TextLabel"),
+	CreditsFrame = Instance.new("Frame"),
+	TextLabel_65 = Instance.new("TextLabel"),
+	Close = Instance.new("TextButton"),
+	TextLabel_66 = Instance.new("TextLabel"),
+	ScriptsFrame = Instance.new("ScrollingFrame"),
+	BeeSwarm = Instance.new("TextButton"),
+	UICorner_78 = Instance.new("UICorner"),
+	BloxFruits = Instance.new("TextButton"),
+	UICorner_79 = Instance.new("UICorner"),
+	BuildABoat = Instance.new("TextButton"),
+	UICorner_80 = Instance.new("UICorner"),
+	EatingSimulator = Instance.new("TextButton"),
+	UICorner_81 = Instance.new("UICorner"),
+	FactorySimulator = Instance.new("TextButton"),
+	UICorner_82 = Instance.new("UICorner"),
+	LiftingSimulator = Instance.new("TextButton"),
+	UICorner_83 = Instance.new("UICorner"),
+	MM2 = Instance.new("TextButton"),
+	UICorner_84 = Instance.new("UICorner"),
+	MadCity = Instance.new("TextButton"),
+	UICorner_85 = Instance.new("UICorner"),
+	PetSimulatorX = Instance.new("TextButton"),
+	UICorner_86 = Instance.new("UICorner"),
+	RPGSimulator = Instance.new("TextButton"),
+	UICorner_87 = Instance.new("UICorner"),
+	TowerDesenseSIM = Instance.new("TextButton"),
+	UICorner_88 = Instance.new("UICorner"),
+	TowerOfHell = Instance.new("TextButton"),
+	UICorner_89 = Instance.new("UICorner"),
+	AnimeClicker = Instance.new("TextButton"),
+	UICorner_90 = Instance.new("UICorner"),
+	CriticalLegends = Instance.new("TextButton"),
+	UICorner_91 = Instance.new("UICorner"),
+	AdoptMe_34 = Instance.new("TextButton"),
+	UICorner_92 = Instance.new("UICorner"),
+	YBA = Instance.new("TextButton"),
+	UICorner_93 = Instance.new("UICorner"),
+	NoJumpingDifficultyChartObby = Instance.new("TextButton"),
+	UICorner_94 = Instance.new("UICorner"),
+	LootQuest = Instance.new("TextButton"),
+	UICorner_95 = Instance.new("UICorner"),
+	MagnetSimulator2 = Instance.new("TextButton"),
+	UICorner_96 = Instance.new("UICorner"),
+	UpdatesFrame = Instance.new("ScrollingFrame"),
+	TextLabel_67 = Instance.new("TextLabel"),
+	TextLabel_68 = Instance.new("TextLabel"),
+	TextLabel_69 = Instance.new("TextLabel"),
+	TextLabel_70 = Instance.new("TextLabel"),
+	TextLabel_71 = Instance.new("TextLabel"),
+	TextLabel_72 = Instance.new("TextLabel"),
+	TextLabel_73 = Instance.new("TextLabel"),
+	TextLabel_74 = Instance.new("TextLabel"),
+	TextLabel_75 = Instance.new("TextLabel"),
+	TextLabel_76 = Instance.new("TextLabel"),
+	TextLabel_77 = Instance.new("TextLabel"),
+	TextLabel_78 = Instance.new("TextLabel"),
 }
 
 --Properties:
@@ -601,7 +695,6 @@ ScreenGui.GamesFrame.Active = true
 ScreenGui.GamesFrame.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
 ScreenGui.GamesFrame.Size = UDim2.new(0, 575, 0, 753)
 ScreenGui.GamesFrame.Visible = false
-ScreenGui.GamesFrame.CanvasPosition = Vector2.new(0, 2400)
 ScreenGui.GamesFrame.CanvasSize = UDim2.new(0, 0, 5, 0)
 
 ScreenGui.Frame_10.Parent = ScreenGui.GamesFrame
@@ -1627,14 +1720,14 @@ ScreenGui.keysystem.BackgroundColor3 = Color3.fromRGB(15, 15, 38)
 ScreenGui.keysystem.Position = UDim2.new(0.15821059, 0, 0.0306068901, 0)
 ScreenGui.keysystem.Size = UDim2.new(0, 771, 0, 723)
 
-ScreenGui.keysystem_2.Name = "keysystem"
-ScreenGui.keysystem_2.Parent = ScreenGui.keysystem
-ScreenGui.keysystem_2.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
-ScreenGui.keysystem_2.BorderSizePixel = 0
-ScreenGui.keysystem_2.Position = UDim2.new(0.298288375, 0, -0.000918693084, 0)
-ScreenGui.keysystem_2.Size = UDim2.new(0, 541, 0, 723)
+ScreenGui.keysystemui.Name = "keysystemui"
+ScreenGui.keysystemui.Parent = ScreenGui.keysystem
+ScreenGui.keysystemui.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+ScreenGui.keysystemui.BorderSizePixel = 0
+ScreenGui.keysystemui.Position = UDim2.new(0.298288375, 0, -0.000918693084, 0)
+ScreenGui.keysystemui.Size = UDim2.new(0, 541, 0, 723)
 
-ScreenGui.Frame_35.Parent = ScreenGui.keysystem_2
+ScreenGui.Frame_35.Parent = ScreenGui.keysystemui
 ScreenGui.Frame_35.BackgroundColor3 = Color3.fromRGB(0, 18, 42)
 ScreenGui.Frame_35.BorderColor3 = Color3.fromRGB(27, 42, 53)
 ScreenGui.Frame_35.Position = UDim2.new(0.155640885, 0, 0.106441304, 0)
@@ -1665,7 +1758,7 @@ ScreenGui.TextLabel_40.TextColor3 = Color3.fromRGB(255, 255, 255)
 ScreenGui.TextLabel_40.TextSize = 23.000
 ScreenGui.TextLabel_40.TextWrapped = true
 
-ScreenGui.TextLabel_41.Parent = ScreenGui.keysystem_2
+ScreenGui.TextLabel_41.Parent = ScreenGui.keysystemui
 ScreenGui.TextLabel_41.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ScreenGui.TextLabel_41.BackgroundTransparency = 1.000
 ScreenGui.TextLabel_41.Position = UDim2.new(-0.000759620219, 0, -0.00119817909, 0)
@@ -1677,7 +1770,7 @@ ScreenGui.TextLabel_41.TextScaled = true
 ScreenGui.TextLabel_41.TextSize = 35.000
 ScreenGui.TextLabel_41.TextWrapped = true
 
-ScreenGui.Frame_36.Parent = ScreenGui.keysystem_2
+ScreenGui.Frame_36.Parent = ScreenGui.keysystemui
 ScreenGui.Frame_36.BackgroundColor3 = Color3.fromRGB(0, 18, 42)
 ScreenGui.Frame_36.BorderColor3 = Color3.fromRGB(27, 42, 53)
 ScreenGui.Frame_36.Position = UDim2.new(0.155640885, 0, 0.106441304, 0)
@@ -1708,7 +1801,7 @@ ScreenGui.TextLabel_43.TextColor3 = Color3.fromRGB(255, 255, 255)
 ScreenGui.TextLabel_43.TextSize = 23.000
 ScreenGui.TextLabel_43.TextWrapped = true
 
-ScreenGui.Frame_37.Parent = ScreenGui.keysystem_2
+ScreenGui.Frame_37.Parent = ScreenGui.keysystemui
 ScreenGui.Frame_37.BackgroundColor3 = Color3.fromRGB(0, 18, 42)
 ScreenGui.Frame_37.BorderColor3 = Color3.fromRGB(27, 42, 53)
 ScreenGui.Frame_37.Position = UDim2.new(0.155640885, 0, 0.420410872, 0)
@@ -1800,10 +1893,10 @@ ScreenGui.TextLabel_50.Parent = ScreenGui.keysystem
 ScreenGui.TextLabel_50.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ScreenGui.TextLabel_50.BackgroundTransparency = 1.000
 ScreenGui.TextLabel_50.BorderSizePixel = 0
-ScreenGui.TextLabel_50.Position = UDim2.new(-0.0480802879, 0, 0.0955260471, 0)
+ScreenGui.TextLabel_50.Position = UDim2.new(-9.066239e-05, 0, 0.0955260471, 0)
 ScreenGui.TextLabel_50.Size = UDim2.new(0, 147, 0, 21)
 ScreenGui.TextLabel_50.Font = Enum.Font.SourceSansBold
-ScreenGui.TextLabel_50.Text = "Types"
+ScreenGui.TextLabel_50.Text = "New Version"
 ScreenGui.TextLabel_50.TextColor3 = Color3.fromRGB(255, 255, 255)
 ScreenGui.TextLabel_50.TextScaled = true
 ScreenGui.TextLabel_50.TextSize = 14.000
@@ -1866,9 +1959,770 @@ ScreenGui.TextLabel_51.TextStrokeColor3 = Color3.fromRGB(0, 98, 255)
 ScreenGui.TextLabel_51.TextStrokeTransparency = 0.610
 ScreenGui.TextLabel_51.TextWrapped = true
 
+ScreenGui.notkeysystem.Name = "notkeysystem"
+ScreenGui.notkeysystem.Parent = ScreenGui.keysystem
+ScreenGui.notkeysystem.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+ScreenGui.notkeysystem.BorderSizePixel = 0
+ScreenGui.notkeysystem.Position = UDim2.new(0.298288375, 0, -0.000918693084, 0)
+ScreenGui.notkeysystem.Size = UDim2.new(0, 541, 0, 723)
+ScreenGui.notkeysystem.Visible = false
+
+ScreenGui.Frame_38.Parent = ScreenGui.notkeysystem
+ScreenGui.Frame_38.BackgroundColor3 = Color3.fromRGB(0, 18, 42)
+ScreenGui.Frame_38.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScreenGui.Frame_38.Position = UDim2.new(0.155640885, 0, 0.106441304, 0)
+ScreenGui.Frame_38.Size = UDim2.new(0, 391, 0, 199)
+
+ScreenGui.UICorner_73.Parent = ScreenGui.Frame_38
+
+ScreenGui.TextLabel_52.Parent = ScreenGui.Frame_38
+ScreenGui.TextLabel_52.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_52.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_52.Position = UDim2.new(0.0195494592, 0, -0.00396844, 0)
+ScreenGui.TextLabel_52.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TextLabel_52.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_52.Text = "SkynsWare info"
+ScreenGui.TextLabel_52.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_52.TextScaled = true
+ScreenGui.TextLabel_52.TextSize = 35.000
+ScreenGui.TextLabel_52.TextWrapped = true
+
+ScreenGui.TextLabel_53.Parent = ScreenGui.Frame_38
+ScreenGui.TextLabel_53.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_53.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_53.Position = UDim2.new(-0.000910844363, 0, 0.265310943, 0)
+ScreenGui.TextLabel_53.Size = UDim2.new(0, 391, 0, 140)
+ScreenGui.TextLabel_53.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_53.Text = "SkynsWare - this is script for roblox games, there are scripts in SkynsWare: Admin scripts, ScriptHub"
+ScreenGui.TextLabel_53.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_53.TextSize = 23.000
+ScreenGui.TextLabel_53.TextWrapped = true
+
+ScreenGui.TextLabel_54.Parent = ScreenGui.notkeysystem
+ScreenGui.TextLabel_54.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_54.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_54.Position = UDim2.new(-0.000759620219, 0, -0.00119817909, 0)
+ScreenGui.TextLabel_54.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TextLabel_54.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_54.Text = "loader"
+ScreenGui.TextLabel_54.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_54.TextScaled = true
+ScreenGui.TextLabel_54.TextSize = 35.000
+ScreenGui.TextLabel_54.TextWrapped = true
+
+ScreenGui.Frame_39.Parent = ScreenGui.notkeysystem
+ScreenGui.Frame_39.BackgroundColor3 = Color3.fromRGB(0, 18, 42)
+ScreenGui.Frame_39.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScreenGui.Frame_39.Position = UDim2.new(0.155640885, 0, 0.106441304, 0)
+ScreenGui.Frame_39.Size = UDim2.new(0, 391, 0, 199)
+
+ScreenGui.UICorner_74.Parent = ScreenGui.Frame_39
+
+ScreenGui.TextLabel_55.Parent = ScreenGui.Frame_39
+ScreenGui.TextLabel_55.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_55.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_55.Position = UDim2.new(0.0195494592, 0, -0.00396844, 0)
+ScreenGui.TextLabel_55.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TextLabel_55.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_55.Text = "SkynsWare info"
+ScreenGui.TextLabel_55.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_55.TextScaled = true
+ScreenGui.TextLabel_55.TextSize = 35.000
+ScreenGui.TextLabel_55.TextWrapped = true
+
+ScreenGui.TextLabel_56.Parent = ScreenGui.Frame_39
+ScreenGui.TextLabel_56.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_56.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_56.Position = UDim2.new(-0.000910844363, 0, 0.265310943, 0)
+ScreenGui.TextLabel_56.Size = UDim2.new(0, 391, 0, 140)
+ScreenGui.TextLabel_56.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_56.Text = "SkynsWare - this is script for roblox games, there are scripts in SkynsWare: Admin scripts, ScriptHub"
+ScreenGui.TextLabel_56.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_56.TextSize = 23.000
+ScreenGui.TextLabel_56.TextWrapped = true
+
+ScreenGui.Frame_40.Parent = ScreenGui.notkeysystem
+ScreenGui.Frame_40.BackgroundColor3 = Color3.fromRGB(0, 18, 42)
+ScreenGui.Frame_40.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScreenGui.Frame_40.Position = UDim2.new(0.155640885, 0, 0.420410872, 0)
+ScreenGui.Frame_40.Size = UDim2.new(0, 391, 0, 199)
+
+ScreenGui.UICorner_75.Parent = ScreenGui.Frame_40
+
+ScreenGui.TextLabel_57.Parent = ScreenGui.Frame_40
+ScreenGui.TextLabel_57.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_57.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_57.Position = UDim2.new(0.0195494592, 0, -0.00396844, 0)
+ScreenGui.TextLabel_57.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TextLabel_57.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_57.Text = "Subscription Info"
+ScreenGui.TextLabel_57.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_57.TextScaled = true
+ScreenGui.TextLabel_57.TextSize = 35.000
+ScreenGui.TextLabel_57.TextWrapped = true
+
+ScreenGui.TextLabel_58.Parent = ScreenGui.Frame_40
+ScreenGui.TextLabel_58.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_58.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_58.BorderSizePixel = 0
+ScreenGui.TextLabel_58.Position = UDim2.new(-0.0327350162, 0, 0.30155617, 0)
+ScreenGui.TextLabel_58.Size = UDim2.new(0, 147, 0, 21)
+ScreenGui.TextLabel_58.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_58.Text = "Version: 1.0"
+ScreenGui.TextLabel_58.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_58.TextScaled = true
+ScreenGui.TextLabel_58.TextSize = 14.000
+ScreenGui.TextLabel_58.TextStrokeColor3 = Color3.fromRGB(0, 98, 255)
+ScreenGui.TextLabel_58.TextWrapped = true
+
+ScreenGui.TextLabel_59.Parent = ScreenGui.Frame_40
+ScreenGui.TextLabel_59.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_59.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_59.BorderSizePixel = 0
+ScreenGui.TextLabel_59.Position = UDim2.new(0.0388762355, 0, 0.442259669, 0)
+ScreenGui.TextLabel_59.Size = UDim2.new(0, 147, 0, 21)
+ScreenGui.TextLabel_59.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_59.Text = "Build type: Release"
+ScreenGui.TextLabel_59.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_59.TextScaled = true
+ScreenGui.TextLabel_59.TextSize = 17.000
+ScreenGui.TextLabel_59.TextStrokeColor3 = Color3.fromRGB(0, 98, 255)
+ScreenGui.TextLabel_59.TextWrapped = true
+
+ScreenGui.TextLabel_60.Parent = ScreenGui.Frame_40
+ScreenGui.TextLabel_60.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_60.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_60.BorderSizePixel = 0
+ScreenGui.TextLabel_60.Position = UDim2.new(-0.0173897073, 0, 0.497536063, 0)
+ScreenGui.TextLabel_60.Size = UDim2.new(0, 262, 0, 58)
+ScreenGui.TextLabel_60.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_60.Text = ""
+ScreenGui.TextLabel_60.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_60.TextSize = 20.000
+ScreenGui.TextLabel_60.TextStrokeColor3 = Color3.fromRGB(0, 98, 255)
+ScreenGui.TextLabel_60.TextWrapped = true
+
+ScreenGui.TextLabel_61.Parent = ScreenGui.Frame_40
+ScreenGui.TextLabel_61.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_61.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_61.BorderSizePixel = 0
+ScreenGui.TextLabel_61.Position = UDim2.new(0.0388762727, 0, 0.582963169, 0)
+ScreenGui.TextLabel_61.Size = UDim2.new(0, 218, 0, 36)
+ScreenGui.TextLabel_61.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_61.Text = "Subscription till: 22.12.2222"
+ScreenGui.TextLabel_61.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_61.TextScaled = true
+ScreenGui.TextLabel_61.TextSize = 17.000
+ScreenGui.TextLabel_61.TextStrokeColor3 = Color3.fromRGB(0, 98, 255)
+ScreenGui.TextLabel_61.TextWrapped = true
+
+ScreenGui.TextButtonui.Name = "TextButtonui"
+ScreenGui.TextButtonui.Parent = ScreenGui.keysystem
+ScreenGui.TextButtonui.BackgroundColor3 = Color3.fromRGB(2, 179, 255)
+ScreenGui.TextButtonui.Position = UDim2.new(0.460388511, 0, 0.815957844, 0)
+ScreenGui.TextButtonui.Size = UDim2.new(0, 291, 0, 83)
+ScreenGui.TextButtonui.Visible = false
+ScreenGui.TextButtonui.Font = Enum.Font.SourceSansBold
+ScreenGui.TextButtonui.Text = "Load"
+ScreenGui.TextButtonui.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButtonui.TextScaled = true
+ScreenGui.TextButtonui.TextSize = 29.000
+ScreenGui.TextButtonui.TextWrapped = true
+
+ScreenGui.UICorner_76.CornerRadius = UDim.new(0, 15)
+ScreenGui.UICorner_76.Parent = ScreenGui.TextButtonui
+
+ScreenGui.TextButton_6.Parent = ScreenGui.keysystem
+ScreenGui.TextButton_6.BackgroundColor3 = Color3.fromRGB(1, 65, 93)
+ScreenGui.TextButton_6.BackgroundTransparency = 1.000
+ScreenGui.TextButton_6.Position = UDim2.new(0.0124157062, 0, 0.308302104, 0)
+ScreenGui.TextButton_6.Size = UDim2.new(0, 179, 0, 46)
+ScreenGui.TextButton_6.Font = Enum.Font.SourceSansBold
+ScreenGui.TextButton_6.Text = "Old SkynsWare"
+ScreenGui.TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_6.TextSize = 26.000
+ScreenGui.TextButton_6.TextWrapped = true
+
+ScreenGui.UICorner_77.Parent = ScreenGui.TextButton_6
+
+ScreenGui.TextLabel_62.Parent = ScreenGui.keysystem
+ScreenGui.TextLabel_62.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_62.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_62.BorderSizePixel = 0
+ScreenGui.TextLabel_62.Position = UDim2.new(-9.066239e-05, 0, 0.260118037, 0)
+ScreenGui.TextLabel_62.Size = UDim2.new(0, 147, 0, 21)
+ScreenGui.TextLabel_62.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_62.Text = "Old Version"
+ScreenGui.TextLabel_62.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_62.TextScaled = true
+ScreenGui.TextLabel_62.TextSize = 14.000
+ScreenGui.TextLabel_62.TextStrokeColor3 = Color3.fromRGB(0, 98, 255)
+ScreenGui.TextLabel_62.TextTransparency = 0.690
+ScreenGui.TextLabel_62.TextWrapped = true
+
+ScreenGui.gui.Name = "gui"
+ScreenGui.gui.Parent = ScreenGui.ScreenGui
+ScreenGui.gui.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+ScreenGui.gui.Position = UDim2.new(0.0295673758, 0, 0.224567205, 0)
+ScreenGui.gui.Size = UDim2.new(0, 837, 0, 423)
+ScreenGui.gui.Visible = false
+
+ScreenGui.Name.Name = "Name"
+ScreenGui.Name.Parent = ScreenGui.gui
+ScreenGui.Name.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+ScreenGui.Name.Size = UDim2.new(0, 837, 0, 61)
+
+ScreenGui.Name_2.Name = "Name"
+ScreenGui.Name_2.Parent = ScreenGui.Name
+ScreenGui.Name_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Name_2.BackgroundTransparency = 1.000
+ScreenGui.Name_2.Position = UDim2.new(0.0238948464, 0, 0.0819672123, 0)
+ScreenGui.Name_2.Size = UDim2.new(0, 304, 0, 50)
+ScreenGui.Name_2.Font = Enum.Font.SourceSans
+ScreenGui.Name_2.Text = "$SkynsWare$"
+ScreenGui.Name_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Name_2.TextSize = 52.000
+ScreenGui.Name_2.TextWrapped = true
+
+ScreenGui.polymer.Name = "polymer"
+ScreenGui.polymer.Parent = ScreenGui.Name_2
+ScreenGui.polymer.BackgroundTransparency = 1.000
+ScreenGui.polymer.LayoutOrder = 5
+ScreenGui.polymer.Position = UDim2.new(-0.043859601, 0, 0.159999996, 0)
+ScreenGui.polymer.Size = UDim2.new(0, 44, 0, 42)
+ScreenGui.polymer.ZIndex = 2
+ScreenGui.polymer.Image = "rbxassetid://3926305904"
+ScreenGui.polymer.ImageRectOffset = Vector2.new(204, 364)
+ScreenGui.polymer.ImageRectSize = Vector2.new(36, 36)
+
+ScreenGui.Menu_2.Name = "Menu"
+ScreenGui.Menu_2.Parent = ScreenGui.gui
+ScreenGui.Menu_2.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+ScreenGui.Menu_2.Position = UDim2.new(0, 0, 0.144208044, 0)
+ScreenGui.Menu_2.Size = UDim2.new(0, 133, 0, 362)
+
+ScreenGui.Scripts.Name = "Scripts"
+ScreenGui.Scripts.Parent = ScreenGui.Menu_2
+ScreenGui.Scripts.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Scripts.BackgroundTransparency = 1.000
+ScreenGui.Scripts.Position = UDim2.new(0.097560972, 0, 0, 0)
+ScreenGui.Scripts.Size = UDim2.new(0, 123, 0, 50)
+ScreenGui.Scripts.Font = Enum.Font.SourceSans
+ScreenGui.Scripts.Text = "Scripts"
+ScreenGui.Scripts.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Scripts.TextSize = 29.000
+
+ScreenGui.DPAD.Name = "DPAD"
+ScreenGui.DPAD.Parent = ScreenGui.Scripts
+ScreenGui.DPAD.BackgroundTransparency = 1.000
+ScreenGui.DPAD.Position = UDim2.new(-0.00406503677, 0, 0.24000001, 0)
+ScreenGui.DPAD.Size = UDim2.new(0, 25, 0, 25)
+ScreenGui.DPAD.ZIndex = 2
+ScreenGui.DPAD.Image = "rbxassetid://6764432293"
+ScreenGui.DPAD.ImageRectOffset = Vector2.new(700, 400)
+ScreenGui.DPAD.ImageRectSize = Vector2.new(100, 100)
+
+ScreenGui.Credits.Name = "Credits"
+ScreenGui.Credits.Parent = ScreenGui.Menu_2
+ScreenGui.Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Credits.BackgroundTransparency = 1.000
+ScreenGui.Credits.Position = UDim2.new(0.191057026, 0, 0.110497236, 0)
+ScreenGui.Credits.Size = UDim2.new(0, 98, 0, 50)
+ScreenGui.Credits.Font = Enum.Font.SourceSans
+ScreenGui.Credits.Text = "Credits"
+ScreenGui.Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Credits.TextSize = 29.000
+
+ScreenGui.people.Name = "people"
+ScreenGui.people.Parent = ScreenGui.Credits
+ScreenGui.people.BackgroundTransparency = 1.000
+ScreenGui.people.Position = UDim2.new(-0.132653058, 0, 0.24000001, 0)
+ScreenGui.people.Size = UDim2.new(0, 25, 0, 25)
+ScreenGui.people.ZIndex = 2
+ScreenGui.people.Image = "rbxassetid://3926305904"
+ScreenGui.people.ImageRectOffset = Vector2.new(144, 4)
+ScreenGui.people.ImageRectSize = Vector2.new(24, 24)
+
+ScreenGui.Settings.Name = "Settings"
+ScreenGui.Settings.Parent = ScreenGui.Menu_2
+ScreenGui.Settings.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Settings.BackgroundTransparency = 1.000
+ScreenGui.Settings.Position = UDim2.new(0.191057026, 0, 0.248618782, 0)
+ScreenGui.Settings.Size = UDim2.new(0, 98, 0, 50)
+ScreenGui.Settings.Font = Enum.Font.SourceSans
+ScreenGui.Settings.Text = "Settings"
+ScreenGui.Settings.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Settings.TextSize = 28.000
+
+ScreenGui.settings.Name = "settings"
+ScreenGui.settings.Parent = ScreenGui.Settings
+ScreenGui.settings.BackgroundTransparency = 1.000
+ScreenGui.settings.Position = UDim2.new(-0.133250415, 0, 0.245626479, 0)
+ScreenGui.settings.Size = UDim2.new(0, 25, 0, 25)
+ScreenGui.settings.ZIndex = 2
+ScreenGui.settings.Image = "rbxassetid://3926307971"
+ScreenGui.settings.ImageRectOffset = Vector2.new(324, 124)
+ScreenGui.settings.ImageRectSize = Vector2.new(36, 36)
+
+ScreenGui.Updates.Name = "Updates"
+ScreenGui.Updates.Parent = ScreenGui.Menu_2
+ScreenGui.Updates.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Updates.BackgroundTransparency = 1.000
+ScreenGui.Updates.Position = UDim2.new(0.186991841, 0, 0.395027608, 0)
+ScreenGui.Updates.Size = UDim2.new(0, 112, 0, 38)
+ScreenGui.Updates.Font = Enum.Font.SourceSans
+ScreenGui.Updates.Text = "Updates"
+ScreenGui.Updates.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Updates.TextSize = 28.000
+
+ScreenGui.note_2.Name = "note"
+ScreenGui.note_2.Parent = ScreenGui.Updates
+ScreenGui.note_2.BackgroundTransparency = 1.000
+ScreenGui.note_2.LayoutOrder = 3
+ScreenGui.note_2.Position = UDim2.new(-0.114760533, 0, 0.165702417, 0)
+ScreenGui.note_2.Size = UDim2.new(0, 25, 0, 31)
+ScreenGui.note_2.ZIndex = 2
+ScreenGui.note_2.Image = "rbxassetid://3926305904"
+ScreenGui.note_2.ImageRectOffset = Vector2.new(244, 924)
+ScreenGui.note_2.ImageRectSize = Vector2.new(36, 36)
+
+ScreenGui.SettingsFrame.Name = "SettingsFrame"
+ScreenGui.SettingsFrame.Parent = ScreenGui.gui
+ScreenGui.SettingsFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.SettingsFrame.BackgroundTransparency = 1.000
+ScreenGui.SettingsFrame.Position = UDim2.new(0.146953404, 0, 0.144208044, 0)
+ScreenGui.SettingsFrame.Size = UDim2.new(0, 714, 0, 362)
+ScreenGui.SettingsFrame.Visible = false
+
+ScreenGui.TextLabel_63.Parent = ScreenGui.SettingsFrame
+ScreenGui.TextLabel_63.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_63.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_63.Position = UDim2.new(0.30112046, 0, -0.00276244222, 0)
+ScreenGui.TextLabel_63.Size = UDim2.new(0, 200, 0, 50)
+ScreenGui.TextLabel_63.Font = Enum.Font.SourceSans
+ScreenGui.TextLabel_63.Text = "discord invite"
+ScreenGui.TextLabel_63.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_63.TextSize = 64.000
+
+ScreenGui.TextLabel_64.Parent = ScreenGui.SettingsFrame
+ScreenGui.TextLabel_64.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_64.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_64.Position = UDim2.new(0.366946787, 0, 0.185082868, 0)
+ScreenGui.TextLabel_64.Size = UDim2.new(0, 200, 0, 50)
+ScreenGui.TextLabel_64.Font = Enum.Font.SourceSans
+ScreenGui.TextLabel_64.Text = "https://discord.gg/KXVtGWQAXs"
+ScreenGui.TextLabel_64.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_64.TextSize = 64.000
+
+ScreenGui.CreditsFrame.Name = "CreditsFrame"
+ScreenGui.CreditsFrame.Parent = ScreenGui.gui
+ScreenGui.CreditsFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.CreditsFrame.BackgroundTransparency = 1.000
+ScreenGui.CreditsFrame.Position = UDim2.new(0.146953404, 0, 0.146572098, 0)
+ScreenGui.CreditsFrame.Size = UDim2.new(0, 714, 0, 361)
+ScreenGui.CreditsFrame.Visible = false
+
+ScreenGui.TextLabel_65.Parent = ScreenGui.CreditsFrame
+ScreenGui.TextLabel_65.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_65.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_65.Position = UDim2.new(0.323529422, 0, 0.313019395, 0)
+ScreenGui.TextLabel_65.Size = UDim2.new(0, 200, 0, 50)
+ScreenGui.TextLabel_65.Font = Enum.Font.SourceSans
+ScreenGui.TextLabel_65.Text = "Maded by Sashkandro75"
+ScreenGui.TextLabel_65.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_65.TextSize = 46.000
+
+ScreenGui.Close.Name = "Close"
+ScreenGui.Close.Parent = ScreenGui.gui
+ScreenGui.Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Close.BackgroundTransparency = 1.000
+ScreenGui.Close.Position = UDim2.new(0.915173233, 0, -0.0132542774, 0)
+ScreenGui.Close.Size = UDim2.new(0, 71, 0, 61)
+ScreenGui.Close.Font = Enum.Font.Nunito
+ScreenGui.Close.Text = "x"
+ScreenGui.Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Close.TextSize = 68.000
+
+ScreenGui.TextLabel_66.Parent = ScreenGui.gui
+ScreenGui.TextLabel_66.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_66.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_66.Position = UDim2.new(0.259259254, 0, 0.0283688381, 0)
+ScreenGui.TextLabel_66.Size = UDim2.new(0, 200, 0, 50)
+ScreenGui.TextLabel_66.Font = Enum.Font.SourceSans
+ScreenGui.TextLabel_66.Text = "b1.1"
+ScreenGui.TextLabel_66.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_66.TextSize = 31.000
+
+ScreenGui.ScriptsFrame.Name = "ScriptsFrame"
+ScreenGui.ScriptsFrame.Parent = ScreenGui.gui
+ScreenGui.ScriptsFrame.Active = true
+ScreenGui.ScriptsFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.ScriptsFrame.BackgroundTransparency = 1.000
+ScreenGui.ScriptsFrame.Position = UDim2.new(0.159872144, 0, 0.144208044, 0)
+ScreenGui.ScriptsFrame.Size = UDim2.new(0, 703, 0, 362)
+
+ScreenGui.BeeSwarm.Name = "Bee Swarm"
+ScreenGui.BeeSwarm.Parent = ScreenGui.ScriptsFrame
+ScreenGui.BeeSwarm.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.BeeSwarm.Position = UDim2.new(0.0126206577, 0, 0.191260159, 0)
+ScreenGui.BeeSwarm.Size = UDim2.new(0, 220, 0, 65)
+ScreenGui.BeeSwarm.Font = Enum.Font.SourceSansBold
+ScreenGui.BeeSwarm.Text = "Bee Swarm"
+ScreenGui.BeeSwarm.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.BeeSwarm.TextSize = 45.000
+
+ScreenGui.UICorner_78.Parent = ScreenGui.BeeSwarm
+
+ScreenGui.BloxFruits.Name = "Blox Fruits"
+ScreenGui.BloxFruits.Parent = ScreenGui.ScriptsFrame
+ScreenGui.BloxFruits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.BloxFruits.Position = UDim2.new(0.344459027, 0, 0.10170722, 0)
+ScreenGui.BloxFruits.Size = UDim2.new(0, 220, 0, 65)
+ScreenGui.BloxFruits.Font = Enum.Font.SourceSansBold
+ScreenGui.BloxFruits.Text = "Blox Fruits"
+ScreenGui.BloxFruits.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.BloxFruits.TextSize = 45.000
+
+ScreenGui.UICorner_79.Parent = ScreenGui.BloxFruits
+
+ScreenGui.BuildABoat.Name = "Build A Boat"
+ScreenGui.BuildABoat.Parent = ScreenGui.ScriptsFrame
+ScreenGui.BuildABoat.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.BuildABoat.Position = UDim2.new(0.00561797759, 0, 0.0102322828, 0)
+ScreenGui.BuildABoat.Size = UDim2.new(0, 225, 0, 61)
+ScreenGui.BuildABoat.Font = Enum.Font.SourceSansBold
+ScreenGui.BuildABoat.Text = "Build A Boat"
+ScreenGui.BuildABoat.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.BuildABoat.TextSize = 45.000
+
+ScreenGui.UICorner_80.Parent = ScreenGui.BuildABoat
+
+ScreenGui.EatingSimulator.Name = "Eating Simulator"
+ScreenGui.EatingSimulator.Parent = ScreenGui.ScriptsFrame
+ScreenGui.EatingSimulator.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.EatingSimulator.Position = UDim2.new(0.344085395, 0, 0.28204751, 0)
+ScreenGui.EatingSimulator.Size = UDim2.new(0, 225, 0, 61)
+ScreenGui.EatingSimulator.Font = Enum.Font.SourceSansBold
+ScreenGui.EatingSimulator.Text = "Eating Simulator"
+ScreenGui.EatingSimulator.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.EatingSimulator.TextSize = 34.000
+
+ScreenGui.UICorner_81.Parent = ScreenGui.EatingSimulator
+
+ScreenGui.FactorySimulator.Name = "Factory Simulator"
+ScreenGui.FactorySimulator.Parent = ScreenGui.ScriptsFrame
+ScreenGui.FactorySimulator.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.FactorySimulator.Position = UDim2.new(0.344478816, 0, 0.0102322977, 0)
+ScreenGui.FactorySimulator.Size = UDim2.new(0, 225, 0, 61)
+ScreenGui.FactorySimulator.Font = Enum.Font.SourceSansBold
+ScreenGui.FactorySimulator.Text = "Factory Simulator"
+ScreenGui.FactorySimulator.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.FactorySimulator.TextSize = 34.000
+
+ScreenGui.UICorner_82.Parent = ScreenGui.FactorySimulator
+
+ScreenGui.LiftingSimulator.Name = "Lifting Simulator"
+ScreenGui.LiftingSimulator.Parent = ScreenGui.ScriptsFrame
+ScreenGui.LiftingSimulator.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.LiftingSimulator.Position = UDim2.new(0.0154295964, 0, 0.282735139, 0)
+ScreenGui.LiftingSimulator.Size = UDim2.new(0, 220, 0, 66)
+ScreenGui.LiftingSimulator.Font = Enum.Font.SourceSansBold
+ScreenGui.LiftingSimulator.Text = "Lifting Simulator"
+ScreenGui.LiftingSimulator.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.LiftingSimulator.TextSize = 34.000
+
+ScreenGui.UICorner_83.Parent = ScreenGui.LiftingSimulator
+
+ScreenGui.MM2.Name = "MM2"
+ScreenGui.MM2.Parent = ScreenGui.ScriptsFrame
+ScreenGui.MM2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.MM2.Position = UDim2.new(0.668897212, 0, 0.190942526, 0)
+ScreenGui.MM2.Size = UDim2.new(0, 220, 0, 65)
+ScreenGui.MM2.Font = Enum.Font.SourceSansBold
+ScreenGui.MM2.Text = "MM2"
+ScreenGui.MM2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.MM2.TextSize = 45.000
+
+ScreenGui.UICorner_84.Parent = ScreenGui.MM2
+
+ScreenGui.MadCity.Name = "Mad City"
+ScreenGui.MadCity.Parent = ScreenGui.ScriptsFrame
+ScreenGui.MadCity.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.MadCity.Position = UDim2.new(0.344459027, 0, 0.191260159, 0)
+ScreenGui.MadCity.Size = UDim2.new(0, 220, 0, 65)
+ScreenGui.MadCity.Font = Enum.Font.SourceSansBold
+ScreenGui.MadCity.Text = "Mad City"
+ScreenGui.MadCity.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.MadCity.TextSize = 45.000
+
+ScreenGui.UICorner_85.Parent = ScreenGui.MadCity
+
+ScreenGui.PetSimulatorX.Name = "Pet Simulator X"
+ScreenGui.PetSimulatorX.Parent = ScreenGui.ScriptsFrame
+ScreenGui.PetSimulatorX.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.PetSimulatorX.Position = UDim2.new(0.669404745, 0, 0.0102322567, 0)
+ScreenGui.PetSimulatorX.Size = UDim2.new(0, 220, 0, 65)
+ScreenGui.PetSimulatorX.Font = Enum.Font.SourceSansBold
+ScreenGui.PetSimulatorX.Text = "Pet Simulator X"
+ScreenGui.PetSimulatorX.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.PetSimulatorX.TextSize = 34.000
+ScreenGui.PetSimulatorX.TextWrapped = true
+
+ScreenGui.UICorner_86.Parent = ScreenGui.PetSimulatorX
+
+ScreenGui.RPGSimulator.Name = "RPG Simulator"
+ScreenGui.RPGSimulator.Parent = ScreenGui.ScriptsFrame
+ScreenGui.RPGSimulator.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.RPGSimulator.Position = UDim2.new(0.00561797759, 0, 0.10248325, 0)
+ScreenGui.RPGSimulator.Size = UDim2.new(0, 225, 0, 65)
+ScreenGui.RPGSimulator.Font = Enum.Font.SourceSansBold
+ScreenGui.RPGSimulator.Text = "RPG Simulator"
+ScreenGui.RPGSimulator.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.RPGSimulator.TextSize = 40.000
+
+ScreenGui.UICorner_87.Parent = ScreenGui.RPGSimulator
+
+ScreenGui.TowerDesenseSIM.Name = "Tower Desense SIM"
+ScreenGui.TowerDesenseSIM.Parent = ScreenGui.ScriptsFrame
+ScreenGui.TowerDesenseSIM.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TowerDesenseSIM.Position = UDim2.new(0.668897271, 0, 0.28204751, 0)
+ScreenGui.TowerDesenseSIM.Size = UDim2.new(0, 220, 0, 65)
+ScreenGui.TowerDesenseSIM.Font = Enum.Font.SourceSansBold
+ScreenGui.TowerDesenseSIM.Text = "Tower Desense SIM"
+ScreenGui.TowerDesenseSIM.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TowerDesenseSIM.TextSize = 31.000
+
+ScreenGui.UICorner_88.Parent = ScreenGui.TowerDesenseSIM
+
+ScreenGui.TowerOfHell.Name = "Tower Of Hell"
+ScreenGui.TowerOfHell.Parent = ScreenGui.ScriptsFrame
+ScreenGui.TowerOfHell.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TowerOfHell.Position = UDim2.new(0.669404745, 0, 0.101779245, 0)
+ScreenGui.TowerOfHell.Size = UDim2.new(0, 220, 0, 65)
+ScreenGui.TowerOfHell.Font = Enum.Font.SourceSansBold
+ScreenGui.TowerOfHell.Text = "Tower Of Hell"
+ScreenGui.TowerOfHell.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TowerOfHell.TextSize = 43.000
+ScreenGui.TowerOfHell.TextWrapped = true
+
+ScreenGui.UICorner_89.Parent = ScreenGui.TowerOfHell
+
+ScreenGui.AnimeClicker.Name = "Anime Clicker"
+ScreenGui.AnimeClicker.Parent = ScreenGui.ScriptsFrame
+ScreenGui.AnimeClicker.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AnimeClicker.Position = UDim2.new(0.0129984021, 0, 0.37661016, 0)
+ScreenGui.AnimeClicker.Size = UDim2.new(0, 220, 0, 65)
+ScreenGui.AnimeClicker.Font = Enum.Font.SourceSansBold
+ScreenGui.AnimeClicker.Text = "Anime Clicker"
+ScreenGui.AnimeClicker.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AnimeClicker.TextSize = 40.000
+
+ScreenGui.UICorner_90.Parent = ScreenGui.AnimeClicker
+
+ScreenGui.CriticalLegends.Name = "Critical Legends"
+ScreenGui.CriticalLegends.Parent = ScreenGui.ScriptsFrame
+ScreenGui.CriticalLegends.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.CriticalLegends.Position = UDim2.new(0.343054593, 0, 0.37661016, 0)
+ScreenGui.CriticalLegends.Size = UDim2.new(0, 220, 0, 65)
+ScreenGui.CriticalLegends.Font = Enum.Font.SourceSansBold
+ScreenGui.CriticalLegends.Text = "Critical Legends"
+ScreenGui.CriticalLegends.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.CriticalLegends.TextSize = 37.000
+
+ScreenGui.UICorner_91.Parent = ScreenGui.CriticalLegends
+
+ScreenGui.AdoptMe_34.Name = "Adopt Me"
+ScreenGui.AdoptMe_34.Parent = ScreenGui.ScriptsFrame
+ScreenGui.AdoptMe_34.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AdoptMe_34.Position = UDim2.new(0.668897271, 0, 0.37661016, 0)
+ScreenGui.AdoptMe_34.Size = UDim2.new(0, 220, 0, 65)
+ScreenGui.AdoptMe_34.Font = Enum.Font.SourceSansBold
+ScreenGui.AdoptMe_34.Text = "Adopt Me"
+ScreenGui.AdoptMe_34.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AdoptMe_34.TextSize = 37.000
+
+ScreenGui.UICorner_92.Parent = ScreenGui.AdoptMe_34
+
+ScreenGui.YBA.Name = "YBA"
+ScreenGui.YBA.Parent = ScreenGui.ScriptsFrame
+ScreenGui.YBA.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.YBA.Position = UDim2.new(0.0129984021, 0, 0.46880874, 0)
+ScreenGui.YBA.Size = UDim2.new(0, 220, 0, 65)
+ScreenGui.YBA.Font = Enum.Font.SourceSansBold
+ScreenGui.YBA.Text = "YBA"
+ScreenGui.YBA.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.YBA.TextSize = 37.000
+
+ScreenGui.UICorner_93.Parent = ScreenGui.YBA
+
+ScreenGui.NoJumpingDifficultyChartObby.Name = "No Jumping Difficulty Chart Obby"
+ScreenGui.NoJumpingDifficultyChartObby.Parent = ScreenGui.ScriptsFrame
+ScreenGui.NoJumpingDifficultyChartObby.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.NoJumpingDifficultyChartObby.Position = UDim2.new(0.333223134, 0, 0.46880874, 0)
+ScreenGui.NoJumpingDifficultyChartObby.Size = UDim2.new(0, 220, 0, 65)
+ScreenGui.NoJumpingDifficultyChartObby.Font = Enum.Font.SourceSansBold
+ScreenGui.NoJumpingDifficultyChartObby.Text = "No Jumping Difficulty Chart Obby"
+ScreenGui.NoJumpingDifficultyChartObby.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.NoJumpingDifficultyChartObby.TextSize = 16.000
+
+ScreenGui.UICorner_94.Parent = ScreenGui.NoJumpingDifficultyChartObby
+
+ScreenGui.LootQuest.Name = "Loot Quest"
+ScreenGui.LootQuest.Parent = ScreenGui.ScriptsFrame
+ScreenGui.LootQuest.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.LootQuest.Position = UDim2.new(0.667492807, 0, 0.46880874, 0)
+ScreenGui.LootQuest.Size = UDim2.new(0, 220, 0, 65)
+ScreenGui.LootQuest.Font = Enum.Font.SourceSansBold
+ScreenGui.LootQuest.Text = "Loot Quest"
+ScreenGui.LootQuest.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.LootQuest.TextSize = 49.000
+
+ScreenGui.UICorner_95.Parent = ScreenGui.LootQuest
+
+ScreenGui.MagnetSimulator2.Name = "Magnet Simulator 2"
+ScreenGui.MagnetSimulator2.Parent = ScreenGui.ScriptsFrame
+ScreenGui.MagnetSimulator2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.MagnetSimulator2.Position = UDim2.new(0.0129984319, 0, 0.553915083, 0)
+ScreenGui.MagnetSimulator2.Size = UDim2.new(0, 220, 0, 65)
+ScreenGui.MagnetSimulator2.Font = Enum.Font.SourceSansBold
+ScreenGui.MagnetSimulator2.Text = "Magnet Simulator 2"
+ScreenGui.MagnetSimulator2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.MagnetSimulator2.TextSize = 31.000
+
+ScreenGui.UICorner_96.Parent = ScreenGui.MagnetSimulator2
+
+ScreenGui.UpdatesFrame.Name = "UpdatesFrame"
+ScreenGui.UpdatesFrame.Parent = ScreenGui.gui
+ScreenGui.UpdatesFrame.Active = true
+ScreenGui.UpdatesFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.UpdatesFrame.BackgroundTransparency = 1.000
+ScreenGui.UpdatesFrame.Position = UDim2.new(0.145758659, 0, 0.144208044, 0)
+ScreenGui.UpdatesFrame.Size = UDim2.new(0, 715, 0, 362)
+ScreenGui.UpdatesFrame.Visible = false
+
+ScreenGui.TextLabel_67.Parent = ScreenGui.UpdatesFrame
+ScreenGui.TextLabel_67.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_67.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_67.Position = UDim2.new(0.0321932957, 0, 0.238744557, 0)
+ScreenGui.TextLabel_67.Size = UDim2.new(0, 200, 0, 50)
+ScreenGui.TextLabel_67.Font = Enum.Font.SourceSans
+ScreenGui.TextLabel_67.Text = "b 1.0 RELEASE"
+ScreenGui.TextLabel_67.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_67.TextSize = 41.000
+
+ScreenGui.TextLabel_68.Parent = ScreenGui.UpdatesFrame
+ScreenGui.TextLabel_68.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_68.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_68.Position = UDim2.new(0.289753407, 0, 0.282303452, 0)
+ScreenGui.TextLabel_68.Size = UDim2.new(0, 200, 0, 50)
+ScreenGui.TextLabel_68.Font = Enum.Font.SourceSans
+ScreenGui.TextLabel_68.Text = "*Added Scroll GUI In Scripts and Updates"
+ScreenGui.TextLabel_68.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_68.TextSize = 41.000
+
+ScreenGui.TextLabel_69.Parent = ScreenGui.UpdatesFrame
+ScreenGui.TextLabel_69.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_69.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_69.Position = UDim2.new(-0.0349395722, 0, 0.765931308, 0)
+ScreenGui.TextLabel_69.Size = UDim2.new(0, 200, 0, 50)
+ScreenGui.TextLabel_69.Font = Enum.Font.SourceSans
+ScreenGui.TextLabel_69.Text = "b 0.9"
+ScreenGui.TextLabel_69.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_69.TextSize = 41.000
+
+ScreenGui.TextLabel_70.Parent = ScreenGui.UpdatesFrame
+ScreenGui.TextLabel_70.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_70.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_70.Position = UDim2.new(0.212830335, 0, 0.813036323, 0)
+ScreenGui.TextLabel_70.Size = UDim2.new(0, 200, 0, 50)
+ScreenGui.TextLabel_70.Font = Enum.Font.SourceSans
+ScreenGui.TextLabel_70.Text = "*Added script for Tower Of Hell"
+ScreenGui.TextLabel_70.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_70.TextSize = 41.000
+
+ScreenGui.TextLabel_71.Parent = ScreenGui.UpdatesFrame
+ScreenGui.TextLabel_71.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_71.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_71.Position = UDim2.new(0.198844314, 0, 0.341405094, 0)
+ScreenGui.TextLabel_71.Size = UDim2.new(0, 200, 0, 50)
+ScreenGui.TextLabel_71.Font = Enum.Font.SourceSans
+ScreenGui.TextLabel_71.Text = "*Added script for Anime Clicker"
+ScreenGui.TextLabel_71.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_71.TextSize = 41.000
+
+ScreenGui.TextLabel_72.Parent = ScreenGui.UpdatesFrame
+ScreenGui.TextLabel_72.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_72.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_72.Position = UDim2.new(0.242200971, 0, 0.404052854, 0)
+ScreenGui.TextLabel_72.Size = UDim2.new(0, 200, 0, 50)
+ScreenGui.TextLabel_72.Font = Enum.Font.SourceSans
+ScreenGui.TextLabel_72.Text = "*Added script for No Jumping Obby"
+ScreenGui.TextLabel_72.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_72.TextSize = 41.000
+
+ScreenGui.TextLabel_73.Parent = ScreenGui.UpdatesFrame
+ScreenGui.TextLabel_73.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_73.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_73.Position = UDim2.new(0.222620547, 0, 0.464336514, 0)
+ScreenGui.TextLabel_73.Size = UDim2.new(0, 200, 0, 50)
+ScreenGui.TextLabel_73.Font = Enum.Font.SourceSans
+ScreenGui.TextLabel_73.Text = "*Added script for Critical Legends"
+ScreenGui.TextLabel_73.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_73.TextSize = 41.000
+
+ScreenGui.TextLabel_74.Parent = ScreenGui.UpdatesFrame
+ScreenGui.TextLabel_74.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_74.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_74.Position = UDim2.new(0.166676491, 0, 0.529348373, 0)
+ScreenGui.TextLabel_74.Size = UDim2.new(0, 200, 0, 50)
+ScreenGui.TextLabel_74.Font = Enum.Font.SourceSans
+ScreenGui.TextLabel_74.Text = "*Added script for Adopt Me"
+ScreenGui.TextLabel_74.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_74.TextSize = 41.000
+
+ScreenGui.TextLabel_75.Parent = ScreenGui.UpdatesFrame
+ScreenGui.TextLabel_75.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_75.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_75.Position = UDim2.new(0.180662513, 0, 0.588450015, 0)
+ScreenGui.TextLabel_75.Size = UDim2.new(0, 200, 0, 50)
+ScreenGui.TextLabel_75.Font = Enum.Font.SourceSans
+ScreenGui.TextLabel_75.Text = "*Added script for Loot Quest"
+ScreenGui.TextLabel_75.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_75.TextSize = 41.000
+
+ScreenGui.TextLabel_76.Parent = ScreenGui.UpdatesFrame
+ScreenGui.TextLabel_76.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_76.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_76.Position = UDim2.new(0.121921256, 0, 0.647551715, 0)
+ScreenGui.TextLabel_76.Size = UDim2.new(0, 200, 0, 50)
+ScreenGui.TextLabel_76.Font = Enum.Font.SourceSans
+ScreenGui.TextLabel_76.Text = "*Added script for YBA"
+ScreenGui.TextLabel_76.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_76.TextSize = 41.000
+
+ScreenGui.TextLabel_77.Parent = ScreenGui.UpdatesFrame
+ScreenGui.TextLabel_77.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_77.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_77.Position = UDim2.new(-0.0573171973, 0, 0.0141582638, 0)
+ScreenGui.TextLabel_77.Size = UDim2.new(0, 200, 0, 50)
+ScreenGui.TextLabel_77.Font = Enum.Font.SourceSans
+ScreenGui.TextLabel_77.Text = "b 1.1"
+ScreenGui.TextLabel_77.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_77.TextSize = 41.000
+
+ScreenGui.TextLabel_78.Parent = ScreenGui.UpdatesFrame
+ScreenGui.TextLabel_78.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_78.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_78.Position = UDim2.new(0.212612867, 0, 0.0732599199, 0)
+ScreenGui.TextLabel_78.Size = UDim2.new(0, 200, 0, 50)
+ScreenGui.TextLabel_78.Font = Enum.Font.SourceSans
+ScreenGui.TextLabel_78.Text = "*Fixed BeeSwarmSimulator script"
+ScreenGui.TextLabel_78.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_78.TextSize = 41.000
+
 -- Scripts:
 
-local function BOQB_fake_script() -- ScreenGui.sw.LocalScript 
+local function BREIM_fake_script() -- ScreenGui.sw.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.sw)
 
 	local UIS = game:GetService('UserInputService')
@@ -1941,40 +2795,40 @@ local function BOQB_fake_script() -- ScreenGui.sw.LocalScript
 	
 	end)
 end
-coroutine.wrap(BOQB_fake_script)()
-local function HIBLH_fake_script() -- ScreenGui.AdoptMe.LocalScript 
+coroutine.wrap(BREIM_fake_script)()
+local function IHFDQT_fake_script() -- ScreenGui.AdoptMe.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.AdoptMe)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://pastebin.com/ibFPdiF7'))()
 	end)
 end
-coroutine.wrap(HIBLH_fake_script)()
-local function HYHN_fake_script() -- ScreenGui.AdoptMe_2.LocalScript 
+coroutine.wrap(IHFDQT_fake_script)()
+local function HMIKB_fake_script() -- ScreenGui.AdoptMe_2.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source', true))()
 	end)
 end
-coroutine.wrap(HYHN_fake_script)()
-local function FNNMP_fake_script() -- ScreenGui.AdoptMe_3.LocalScript 
+coroutine.wrap(HMIKB_fake_script)()
+local function MXGFS_fake_script() -- ScreenGui.AdoptMe_3.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
 	end)
 end
-coroutine.wrap(FNNMP_fake_script)()
-local function PGFGW_fake_script() -- ScreenGui.AdoptMe_4.LocalScript 
+coroutine.wrap(MXGFS_fake_script)()
+local function WTKQIXV_fake_script() -- ScreenGui.AdoptMe_4.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 	end)
 end
-coroutine.wrap(PGFGW_fake_script)()
-local function VRJYBP_fake_script() -- ScreenGui.MainFrame.LocalScript 
+coroutine.wrap(WTKQIXV_fake_script)()
+local function RZRECOK_fake_script() -- ScreenGui.MainFrame.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.MainFrame)
 
 	local frame = script.Parent
@@ -1986,248 +2840,248 @@ local function VRJYBP_fake_script() -- ScreenGui.MainFrame.LocalScript
 	frame.DisplayName.Text = player.DisplayName
 	frame.UserName.Text = "@".. player.Name
 end
-coroutine.wrap(VRJYBP_fake_script)()
-local function RJYCKOT_fake_script() -- ScreenGui.AdoptMe_5.LocalScript 
+coroutine.wrap(RZRECOK_fake_script)()
+local function PUYCT_fake_script() -- ScreenGui.AdoptMe_5.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://shlex.dev/release/domainx/latest.lua',true))()
 	end)
 end
-coroutine.wrap(RJYCKOT_fake_script)()
-local function LBBWEWL_fake_script() -- ScreenGui.AdoptMe_6.LocalScript 
+coroutine.wrap(PUYCT_fake_script)()
+local function UVKVPFP_fake_script() -- ScreenGui.AdoptMe_6.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/UmhaEvTT",true))()
 	end)
 end
-coroutine.wrap(LBBWEWL_fake_script)()
-local function HPTH_fake_script() -- ScreenGui.AdoptMe_7.LocalScript 
+coroutine.wrap(UVKVPFP_fake_script)()
+local function QRGP_fake_script() -- ScreenGui.AdoptMe_7.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
 	end)
 end
-coroutine.wrap(HPTH_fake_script)()
-local function ZYBW_fake_script() -- ScreenGui.AdoptMe_8.LocalScript 
+coroutine.wrap(QRGP_fake_script)()
+local function JSYXQRM_fake_script() -- ScreenGui.AdoptMe_8.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_8)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
 	end)
 end
-coroutine.wrap(ZYBW_fake_script)()
-local function TEBPJR_fake_script() -- ScreenGui.AdoptMe_9.LocalScript 
+coroutine.wrap(JSYXQRM_fake_script)()
+local function SHDN_fake_script() -- ScreenGui.AdoptMe_9.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_9)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/urmomjklol69/Adopt-Me-Gingerbread-Farm/main/Protected.lua", true))()
 	end)
 end
-coroutine.wrap(TEBPJR_fake_script)()
-local function XEEVL_fake_script() -- ScreenGui.AdoptMe_10.LocalScript 
+coroutine.wrap(SHDN_fake_script)()
+local function PSTF_fake_script() -- ScreenGui.AdoptMe_10.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_10)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/CheetoHub/main/Loader"))()
 	end)
 end
-coroutine.wrap(XEEVL_fake_script)()
-local function ALHVHS_fake_script() -- ScreenGui.AdoptMe_11.LocalScript 
+coroutine.wrap(PSTF_fake_script)()
+local function FHSSG_fake_script() -- ScreenGui.AdoptMe_11.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_11)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Boxking776/kocmoc/main/kocmoc-remastered.lua"))()
 	end)
 end
-coroutine.wrap(ALHVHS_fake_script)()
-local function KABQONE_fake_script() -- ScreenGui.AdoptMe_12.LocalScript 
+coroutine.wrap(FHSSG_fake_script)()
+local function HNPZAFH_fake_script() -- ScreenGui.AdoptMe_12.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_12)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet"https://raw.githubusercontent.com/BaconLords/Random-Shit/main/OMG.lua")()
 	end)
 end
-coroutine.wrap(KABQONE_fake_script)()
-local function EKWH_fake_script() -- ScreenGui.AdoptMe_13.LocalScript 
+coroutine.wrap(HNPZAFH_fake_script)()
+local function MFRGYD_fake_script() -- ScreenGui.AdoptMe_13.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_13)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/0YezNNRh",true))()
 	end)
 end
-coroutine.wrap(EKWH_fake_script)()
-local function OGQP_fake_script() -- ScreenGui.AdoptMe_14.LocalScript 
+coroutine.wrap(MFRGYD_fake_script)()
+local function JZBVCZ_fake_script() -- ScreenGui.AdoptMe_14.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_14)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/CriticalLegendsCheetoHub/main/OpenSource"))()
 	end)
 end
-coroutine.wrap(OGQP_fake_script)()
-local function BFTMR_fake_script() -- ScreenGui.AdoptMe_15.LocalScript 
+coroutine.wrap(JZBVCZ_fake_script)()
+local function QJEWFK_fake_script() -- ScreenGui.AdoptMe_15.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_15)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/CriticalLegendsCheetoHub/main/OpenSource"))()
 	end)
 end
-coroutine.wrap(BFTMR_fake_script)()
-local function FPOOVD_fake_script() -- ScreenGui.AdoptMe_16.LocalScript 
+coroutine.wrap(QJEWFK_fake_script)()
+local function HAFXKBE_fake_script() -- ScreenGui.AdoptMe_16.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_16)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/0YezNNRh",true))()
 	end)
 end
-coroutine.wrap(FPOOVD_fake_script)()
-local function CDMA_fake_script() -- ScreenGui.AdoptMe_17.LocalScript 
+coroutine.wrap(HAFXKBE_fake_script)()
+local function JJPPYJ_fake_script() -- ScreenGui.AdoptMe_17.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_17)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet"https://pastebinp.com/raw/eccv9pgu")()
 	end)
 end
-coroutine.wrap(CDMA_fake_script)()
-local function QUDTGI_fake_script() -- ScreenGui.AdoptMe_18.LocalScript 
+coroutine.wrap(JJPPYJ_fake_script)()
+local function PEHB_fake_script() -- ScreenGui.AdoptMe_18.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_18)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/PainfulDestroyer/FactorySim/main/FactorySim.lua"))()
 	end)
 end
-coroutine.wrap(QUDTGI_fake_script)()
-local function ZCKZI_fake_script() -- ScreenGui.AdoptMe_19.LocalScript 
+coroutine.wrap(PEHB_fake_script)()
+local function VIYP_fake_script() -- ScreenGui.AdoptMe_19.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_19)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/LiftingSim/main/LiftingSimulator.lua"))()
 	end)
 end
-coroutine.wrap(ZCKZI_fake_script)()
-local function YINQUE_fake_script() -- ScreenGui.AdoptMe_20.LocalScript 
+coroutine.wrap(VIYP_fake_script)()
+local function CIAFJRD_fake_script() -- ScreenGui.AdoptMe_20.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_20)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/WetCheezit/Releases/main/LootQuest/Source.lua"))()
 	end)
 end
-coroutine.wrap(YINQUE_fake_script)()
-local function YYFXMB_fake_script() -- ScreenGui.AdoptMe_21.LocalScript 
+coroutine.wrap(CIAFJRD_fake_script)()
+local function JFNEDM_fake_script() -- ScreenGui.AdoptMe_21.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_21)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/LiftingSim/main/LiftingSimulator.lua"))()
 	end)
 end
-coroutine.wrap(YYFXMB_fake_script)()
-local function NSPG_fake_script() -- ScreenGui.AdoptMe_22.LocalScript 
+coroutine.wrap(JFNEDM_fake_script)()
+local function NYES_fake_script() -- ScreenGui.AdoptMe_22.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_22)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/WetCheezit/Releases/main/LootQuest/Source.lua"))()
 	end)
 end
-coroutine.wrap(NSPG_fake_script)()
-local function FAVGJCW_fake_script() -- ScreenGui.AdoptMe_23.LocalScript 
+coroutine.wrap(NYES_fake_script)()
+local function OJQG_fake_script() -- ScreenGui.AdoptMe_23.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_23)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/castycheat/mad-city/main/Protected%20(25).lua"))()
 	end)
 end
-coroutine.wrap(FAVGJCW_fake_script)()
-local function OZPTV_fake_script() -- ScreenGui.AdoptMe_24.LocalScript 
+coroutine.wrap(OJQG_fake_script)()
+local function RAESBK_fake_script() -- ScreenGui.AdoptMe_24.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_24)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
 	end)
 end
-coroutine.wrap(OZPTV_fake_script)()
-local function FCFW_fake_script() -- ScreenGui.AdoptMe_25.LocalScript 
+coroutine.wrap(RAESBK_fake_script)()
+local function QHXDPDE_fake_script() -- ScreenGui.AdoptMe_25.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_25)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/2dgeneralspam1/lua-releases/main/scripts/No%20Jumping%20Difficulty%20Chart%20Obby.lua'))()
 	end)
 end
-coroutine.wrap(FCFW_fake_script)()
-local function OZQHO_fake_script() -- ScreenGui.AdoptMe_26.LocalScript 
+coroutine.wrap(QHXDPDE_fake_script)()
+local function JPDOAW_fake_script() -- ScreenGui.AdoptMe_26.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_26)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/roxyrekt/HubORScript/main/Magnet_Simulator_2.lua"))()
 	end)
 end
-coroutine.wrap(OZQHO_fake_script)()
-local function YITXZQW_fake_script() -- ScreenGui.AdoptMe_27.LocalScript 
+coroutine.wrap(JPDOAW_fake_script)()
+local function GJCS_fake_script() -- ScreenGui.AdoptMe_27.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_27)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/laderite/zenx/main/scripts/RPG_Simulator.lua'))()
 	end)
 end
-coroutine.wrap(YITXZQW_fake_script)()
-local function FPJH_fake_script() -- ScreenGui.AdoptMe_28.LocalScript 
+coroutine.wrap(GJCS_fake_script)()
+local function BZPI_fake_script() -- ScreenGui.AdoptMe_28.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_28)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/BLACKGAMER1221/Pet-Simulator-X/main/BK%20Pet.lua"))()
 	end)
 end
-coroutine.wrap(FPJH_fake_script)()
-local function QBWKYDV_fake_script() -- ScreenGui.AdoptMe_29.LocalScript 
+coroutine.wrap(BZPI_fake_script)()
+local function WUBD_fake_script() -- ScreenGui.AdoptMe_29.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_29)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://banbus.cf/scripts/autofarmconfig"))()
 	end)
 end
-coroutine.wrap(QBWKYDV_fake_script)()
-local function SGUI_fake_script() -- ScreenGui.AdoptMe_30.LocalScript 
+coroutine.wrap(WUBD_fake_script)()
+local function GVTQLZ_fake_script() -- ScreenGui.AdoptMe_30.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_30)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://arches-systems.com/loader.lua",true))()
 	end)
 end
-coroutine.wrap(SGUI_fake_script)()
-local function NAUOE_fake_script() -- ScreenGui.AdoptMe_31.LocalScript 
+coroutine.wrap(GVTQLZ_fake_script)()
+local function VPLGE_fake_script() -- ScreenGui.AdoptMe_31.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_31)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Tobias020108Back/YBA-AUT/main/YBA-GUI-Rewrite.lua"))()
 	end)
 end
-coroutine.wrap(NAUOE_fake_script)()
-local function MNSYV_fake_script() -- ScreenGui.AdoptMe_32.LocalScript 
+coroutine.wrap(VPLGE_fake_script)()
+local function RIHQCOQ_fake_script() -- ScreenGui.AdoptMe_32.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_32)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/CheetoHub/main/Loader"))()
 	end)
 end
-coroutine.wrap(MNSYV_fake_script)()
-local function QCEM_fake_script() -- ScreenGui.AdoptMe_33.LocalScript 
+coroutine.wrap(RIHQCOQ_fake_script)()
+local function EICOXL_fake_script() -- ScreenGui.AdoptMe_33.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_33)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/NooVster/Darklife/main/Source"))()
 	end)
 end
-coroutine.wrap(QCEM_fake_script)()
-local function QURTP_fake_script() -- ScreenGui.TextButton.LocalScript 
+coroutine.wrap(EICOXL_fake_script)()
+local function JNABKHX_fake_script() -- ScreenGui.TextButton.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(QURTP_fake_script)()
-local function YEVOL_fake_script() -- ScreenGui.TextButton_2.LocalScript 
+coroutine.wrap(JNABKHX_fake_script)()
+local function ATYEWQ_fake_script() -- ScreenGui.TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2237,8 +3091,8 @@ local function YEVOL_fake_script() -- ScreenGui.TextButton_2.LocalScript
 		script.Parent.Parent.AdminFrame.Visible = true
 	end)
 end
-coroutine.wrap(YEVOL_fake_script)()
-local function VQGE_fake_script() -- ScreenGui.shub.LocalScript 
+coroutine.wrap(ATYEWQ_fake_script)()
+local function FPNF_fake_script() -- ScreenGui.shub.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.shub)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2250,8 +3104,8 @@ local function VQGE_fake_script() -- ScreenGui.shub.LocalScript
 	
 	
 end
-coroutine.wrap(VQGE_fake_script)()
-local function UMOB_fake_script() -- ScreenGui.TextButton_3.LocalScript 
+coroutine.wrap(FPNF_fake_script)()
+local function XCEYF_fake_script() -- ScreenGui.TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.TextButton_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2261,8 +3115,8 @@ local function UMOB_fake_script() -- ScreenGui.TextButton_3.LocalScript
 		script.Parent.Parent.AdminFrame.Visible = false
 	end)
 end
-coroutine.wrap(UMOB_fake_script)()
-local function EBWRV_fake_script() -- ScreenGui.keysystem.LocalScript 
+coroutine.wrap(XCEYF_fake_script)()
+local function QTNUBF_fake_script() -- ScreenGui.keysystem.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.keysystem)
 
 	local UIS = game:GetService('UserInputService')
@@ -2337,16 +3191,18 @@ local function EBWRV_fake_script() -- ScreenGui.keysystem.LocalScript
 	
 	
 end
-coroutine.wrap(EBWRV_fake_script)()
-local function GREQF_fake_script() -- ScreenGui.TextButton_4.LocalScript 
+coroutine.wrap(QTNUBF_fake_script)()
+local function PWOVI_fake_script() -- ScreenGui.TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.TextButton_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Visible = false
+		script.Parent.Parent.notkeysystem.Visible = false
+		script.Parent.Parent.TextButtonui.Visible = false
+		script.Parent.Parent.keysystemui.Visible = true
 	end)
 end
-coroutine.wrap(GREQF_fake_script)()
-local function LDNJ_fake_script() -- ScreenGui.TextButton_5.LocalScript 
+coroutine.wrap(PWOVI_fake_script)()
+local function GVRDJ_fake_script() -- ScreenGui.TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui.TextButton_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2357,4 +3213,305 @@ local function LDNJ_fake_script() -- ScreenGui.TextButton_5.LocalScript
 		end
 	end)
 end
-coroutine.wrap(LDNJ_fake_script)()
+coroutine.wrap(GVRDJ_fake_script)()
+local function CLBA_fake_script() -- ScreenGui.TextButtonui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.TextButtonui)
+
+	script.Parent.MouseButton1Click:Connect(function()
+			script.Parent.Parent.Parent.keysystem.Visible = false
+			script.Parent.Parent.Parent.gui.Visible = true
+	end)
+end
+coroutine.wrap(CLBA_fake_script)()
+local function ITNWGB_fake_script() -- ScreenGui.TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.TextButton_6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.notkeysystem.Visible = true
+		script.Parent.Parent.TextButtonui.Visible = true
+		script.Parent.Parent.keysystemui.Visible = false
+	end)
+end
+coroutine.wrap(ITNWGB_fake_script)()
+local function FAFW_fake_script() -- ScreenGui.Scripts.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.Scripts)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.CreditsFrame.Visible = false
+		script.Parent.Parent.Parent.ScriptsFrame.Visible = true
+		script.Parent.Parent.Parent.SettingsFrame.Visible = false
+		script.Parent.Parent.Parent.UpdatesFrame.Visible = false
+		script.Parent.Parent.Parent.PremiumFrame.Visible = false
+	end)
+end
+coroutine.wrap(FAFW_fake_script)()
+local function FOVM_fake_script() -- ScreenGui.Credits.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.Credits)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.CreditsFrame.Visible = true
+		script.Parent.Parent.Parent.ScriptsFrame.Visible = false
+		script.Parent.Parent.Parent.SettingsFrame.Visible = false
+		script.Parent.Parent.Parent.UpdatesFrame.Visible = false
+		script.Parent.Parent.Parent.PremiumFrame.Visible = false
+	end)
+end
+coroutine.wrap(FOVM_fake_script)()
+local function DCUPO_fake_script() -- ScreenGui.Settings.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.Settings)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.CreditsFrame.Visible = false
+		script.Parent.Parent.Parent.ScriptsFrame.Visible = false
+		script.Parent.Parent.Parent.SettingsFrame.Visible = true
+		script.Parent.Parent.Parent.UpdatesFrame.Visible = false
+		script.Parent.Parent.Parent.PremiumFrame.Visible = false
+	end)
+end
+coroutine.wrap(DCUPO_fake_script)()
+local function ANCJRC_fake_script() -- ScreenGui.Updates.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.Updates)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.CreditsFrame.Visible = false
+		script.Parent.Parent.Parent.ScriptsFrame.Visible = false
+		script.Parent.Parent.Parent.SettingsFrame.Visible = false
+		script.Parent.Parent.Parent.UpdatesFrame.Visible = true
+		script.Parent.Parent.Parent.PremiumFrame.Visible = false
+	end)
+end
+coroutine.wrap(ANCJRC_fake_script)()
+local function LBCB_fake_script() -- ScreenGui.gui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.gui)
+
+	local UIS = game:GetService('UserInputService')
+	
+	local frame = script.Parent
+	
+	
+	
+	local dragToggle = nil
+	
+	local dragSpeed = 0.25
+	
+	local dragStart = nil
+	
+	local startPos = nil
+	
+	
+	
+	local function updateInput(input)
+	
+		local delta = input.Position - dragStart
+	
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+	
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	
+	end
+	
+	
+	
+	frame.InputBegan:Connect(function(input)
+	
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+	
+			dragToggle = true
+	
+			dragStart = input.Position
+	
+			startPos = frame.Position
+	
+			input.Changed:Connect(function()
+	
+				if input.UserInputState == Enum.UserInputState.End then
+	
+					dragToggle = false
+	
+				end
+	
+			end)
+	
+		end
+	
+	end)
+	
+	
+	
+	UIS.InputChanged:Connect(function(input)
+	
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	
+			if dragToggle then
+	
+				updateInput(input)
+	
+			end
+	
+		end
+	
+	end)
+end
+coroutine.wrap(LBCB_fake_script)()
+local function XUSG_fake_script() -- ScreenGui.Close.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.Close)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(XUSG_fake_script)()
+local function RKQTB_fake_script() -- ScreenGui.BeeSwarm.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.BeeSwarm)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Boxking776/kocmoc/main/kocmoc-remastered.lua"))()
+	end)
+end
+coroutine.wrap(RKQTB_fake_script)()
+local function MQYNX_fake_script() -- ScreenGui.BloxFruits.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.BloxFruits)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet"https://raw.githubusercontent.com/BaconLords/Random-Shit/main/OMG.lua")()
+	end)
+end
+coroutine.wrap(MQYNX_fake_script)()
+local function XONAG_fake_script() -- ScreenGui.BuildABoat.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.BuildABoat)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/0YezNNRh",true))()
+	end)
+end
+coroutine.wrap(XONAG_fake_script)()
+local function AGTC_fake_script() -- ScreenGui.EatingSimulator.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.EatingSimulator)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet"https://pastebinp.com/raw/eccv9pgu")()
+	end)
+end
+coroutine.wrap(AGTC_fake_script)()
+local function CMUWJCL_fake_script() -- ScreenGui.FactorySimulator.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.FactorySimulator)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/PainfulDestroyer/FactorySim/main/FactorySim.lua"))()
+	end)
+end
+coroutine.wrap(CMUWJCL_fake_script)()
+local function WQFMCT_fake_script() -- ScreenGui.LiftingSimulator.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.LiftingSimulator)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/LiftingSim/main/LiftingSimulator.lua"))()
+	end)
+end
+coroutine.wrap(WQFMCT_fake_script)()
+local function QNNJH_fake_script() -- ScreenGui.MM2.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.MM2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+	end)
+end
+coroutine.wrap(QNNJH_fake_script)()
+local function CJOXJ_fake_script() -- ScreenGui.MadCity.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.MadCity)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/BaconLords/Random-Shit/main/MAD%20cITY"))()
+	end)
+end
+coroutine.wrap(CJOXJ_fake_script)()
+local function JVOUZO_fake_script() -- ScreenGui.PetSimulatorX.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.PetSimulatorX)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/BLACKGAMER1221/Pet-Simulator-X/main/BK%20Pet.lua"))()
+	end)
+end
+coroutine.wrap(JVOUZO_fake_script)()
+local function TAMIVH_fake_script() -- ScreenGui.RPGSimulator.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.RPGSimulator)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/laderite/zenx/main/scripts/RPG_Simulator.lua'))()
+	end)
+end
+coroutine.wrap(TAMIVH_fake_script)()
+local function JPSH_fake_script() -- ScreenGui.TowerDesenseSIM.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.TowerDesenseSIM)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://banbus.cf/scripts/autofarmconfig"))()
+	end)
+end
+coroutine.wrap(JPSH_fake_script)()
+local function FBCLS_fake_script() -- ScreenGui.TowerOfHell.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.TowerOfHell)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/CheetoHub/main/Loader"))()
+	end)
+end
+coroutine.wrap(FBCLS_fake_script)()
+local function ZIFI_fake_script() -- ScreenGui.AnimeClicker.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.AnimeClicker)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/CheetoHub/main/Loader"))()
+	end)
+end
+coroutine.wrap(ZIFI_fake_script)()
+local function IBQKH_fake_script() -- ScreenGui.CriticalLegends.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.CriticalLegends)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/CriticalLegendsCheetoHub/main/OpenSource"))()
+	end)
+end
+coroutine.wrap(IBQKH_fake_script)()
+local function TJACGP_fake_script() -- ScreenGui.AdoptMe_34.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_34)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/urmomjklol69/Adopt-Me-Gingerbread-Farm/main/Protected.lua", true))()
+	end)
+end
+coroutine.wrap(TJACGP_fake_script)()
+local function XPTMNN_fake_script() -- ScreenGui.YBA.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.YBA)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Tobias020108Back/YBA-AUT/main/YBA-GUI-Rewrite.lua"))()
+	end)
+end
+coroutine.wrap(XPTMNN_fake_script)()
+local function NQNXNOA_fake_script() -- ScreenGui.NoJumpingDifficultyChartObby.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.NoJumpingDifficultyChartObby)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/2dgeneralspam1/lua-releases/main/scripts/No%20Jumping%20Difficulty%20Chart%20Obby.lua'))()
+	end)
+end
+coroutine.wrap(NQNXNOA_fake_script)()
+local function LHLJIC_fake_script() -- ScreenGui.LootQuest.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.LootQuest)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/WetCheezit/Releases/main/LootQuest/Source.lua"))()
+	end)
+end
+coroutine.wrap(LHLJIC_fake_script)()
+local function MORXAY_fake_script() -- ScreenGui.MagnetSimulator2.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.MagnetSimulator2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/roxyrekt/HubORScript/main/Magnet_Simulator_2.lua"))()
+	end)
+end
+coroutine.wrap(MORXAY_fake_script)()
