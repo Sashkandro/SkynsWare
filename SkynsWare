@@ -1,0 +1,2360 @@
+local ScreenGui = {
+	ScreenGui = Instance.new("ScreenGui"),
+	sw = Instance.new("Frame"),
+	Frame = Instance.new("Frame"),
+	Menu = Instance.new("Frame"),
+	AdminFrame = Instance.new("Frame"),
+	Frame_2 = Instance.new("Frame"),
+	UICorner = Instance.new("UICorner"),
+	TextLabel = Instance.new("TextLabel"),
+	AdoptMe = Instance.new("TextButton"),
+	UICorner_2 = Instance.new("UICorner"),
+	Frame_3 = Instance.new("Frame"),
+	UICorner_3 = Instance.new("UICorner"),
+	TextLabel_2 = Instance.new("TextLabel"),
+	AdoptMe_2 = Instance.new("TextButton"),
+	UICorner_4 = Instance.new("UICorner"),
+	Frame_4 = Instance.new("Frame"),
+	UICorner_5 = Instance.new("UICorner"),
+	TextLabel_3 = Instance.new("TextLabel"),
+	AdoptMe_3 = Instance.new("TextButton"),
+	UICorner_6 = Instance.new("UICorner"),
+	Frame_5 = Instance.new("Frame"),
+	UICorner_7 = Instance.new("UICorner"),
+	TextLabel_4 = Instance.new("TextLabel"),
+	AdoptMe_4 = Instance.new("TextButton"),
+	UICorner_8 = Instance.new("UICorner"),
+	MainFrame = Instance.new("Frame"),
+	DisplayName = Instance.new("TextLabel"),
+	UserName = Instance.new("TextLabel"),
+	TextLabel_5 = Instance.new("TextLabel"),
+	TextLabel_6 = Instance.new("TextLabel"),
+	TextLabel_7 = Instance.new("TextLabel"),
+	HubsFrame = Instance.new("Frame"),
+	Frame_6 = Instance.new("Frame"),
+	UICorner_9 = Instance.new("UICorner"),
+	TextLabel_8 = Instance.new("TextLabel"),
+	AdoptMe_5 = Instance.new("TextButton"),
+	UICorner_10 = Instance.new("UICorner"),
+	Frame_7 = Instance.new("Frame"),
+	UICorner_11 = Instance.new("UICorner"),
+	TextLabel_9 = Instance.new("TextLabel"),
+	AdoptMe_6 = Instance.new("TextButton"),
+	UICorner_12 = Instance.new("UICorner"),
+	Frame_8 = Instance.new("Frame"),
+	UICorner_13 = Instance.new("UICorner"),
+	TextLabel_10 = Instance.new("TextLabel"),
+	AdoptMe_7 = Instance.new("TextButton"),
+	UICorner_14 = Instance.new("UICorner"),
+	Frame_9 = Instance.new("Frame"),
+	UICorner_15 = Instance.new("UICorner"),
+	TextLabel_11 = Instance.new("TextLabel"),
+	AdoptMe_8 = Instance.new("TextButton"),
+	UICorner_16 = Instance.new("UICorner"),
+	GamesFrame = Instance.new("ScrollingFrame"),
+	Frame_10 = Instance.new("Frame"),
+	UICorner_17 = Instance.new("UICorner"),
+	TextLabel_12 = Instance.new("TextLabel"),
+	AdoptMe_9 = Instance.new("TextButton"),
+	UICorner_18 = Instance.new("UICorner"),
+	Frame_11 = Instance.new("Frame"),
+	UICorner_19 = Instance.new("UICorner"),
+	TextLabel_13 = Instance.new("TextLabel"),
+	AdoptMe_10 = Instance.new("TextButton"),
+	UICorner_20 = Instance.new("UICorner"),
+	Frame_12 = Instance.new("Frame"),
+	UICorner_21 = Instance.new("UICorner"),
+	TextLabel_14 = Instance.new("TextLabel"),
+	AdoptMe_11 = Instance.new("TextButton"),
+	UICorner_22 = Instance.new("UICorner"),
+	Frame_13 = Instance.new("Frame"),
+	UICorner_23 = Instance.new("UICorner"),
+	TextLabel_15 = Instance.new("TextLabel"),
+	AdoptMe_12 = Instance.new("TextButton"),
+	UICorner_24 = Instance.new("UICorner"),
+	Frame_14 = Instance.new("Frame"),
+	UICorner_25 = Instance.new("UICorner"),
+	TextLabel_16 = Instance.new("TextLabel"),
+	AdoptMe_13 = Instance.new("TextButton"),
+	UICorner_26 = Instance.new("UICorner"),
+	Frame_15 = Instance.new("Frame"),
+	UICorner_27 = Instance.new("UICorner"),
+	TextLabel_17 = Instance.new("TextLabel"),
+	AdoptMe_14 = Instance.new("TextButton"),
+	UICorner_28 = Instance.new("UICorner"),
+	Frame_16 = Instance.new("Frame"),
+	UICorner_29 = Instance.new("UICorner"),
+	TextLabel_18 = Instance.new("TextLabel"),
+	AdoptMe_15 = Instance.new("TextButton"),
+	UICorner_30 = Instance.new("UICorner"),
+	Frame_17 = Instance.new("Frame"),
+	UICorner_31 = Instance.new("UICorner"),
+	TextLabel_19 = Instance.new("TextLabel"),
+	AdoptMe_16 = Instance.new("TextButton"),
+	UICorner_32 = Instance.new("UICorner"),
+	Frame_18 = Instance.new("Frame"),
+	UICorner_33 = Instance.new("UICorner"),
+	TextLabel_20 = Instance.new("TextLabel"),
+	AdoptMe_17 = Instance.new("TextButton"),
+	UICorner_34 = Instance.new("UICorner"),
+	Frame_19 = Instance.new("Frame"),
+	UICorner_35 = Instance.new("UICorner"),
+	TextLabel_21 = Instance.new("TextLabel"),
+	AdoptMe_18 = Instance.new("TextButton"),
+	UICorner_36 = Instance.new("UICorner"),
+	Frame_20 = Instance.new("Frame"),
+	UICorner_37 = Instance.new("UICorner"),
+	TextLabel_22 = Instance.new("TextLabel"),
+	AdoptMe_19 = Instance.new("TextButton"),
+	UICorner_38 = Instance.new("UICorner"),
+	Frame_21 = Instance.new("Frame"),
+	UICorner_39 = Instance.new("UICorner"),
+	TextLabel_23 = Instance.new("TextLabel"),
+	AdoptMe_20 = Instance.new("TextButton"),
+	UICorner_40 = Instance.new("UICorner"),
+	Frame_22 = Instance.new("Frame"),
+	UICorner_41 = Instance.new("UICorner"),
+	TextLabel_24 = Instance.new("TextLabel"),
+	AdoptMe_21 = Instance.new("TextButton"),
+	UICorner_42 = Instance.new("UICorner"),
+	Frame_23 = Instance.new("Frame"),
+	UICorner_43 = Instance.new("UICorner"),
+	TextLabel_25 = Instance.new("TextLabel"),
+	AdoptMe_22 = Instance.new("TextButton"),
+	UICorner_44 = Instance.new("UICorner"),
+	Frame_24 = Instance.new("Frame"),
+	UICorner_45 = Instance.new("UICorner"),
+	TextLabel_26 = Instance.new("TextLabel"),
+	AdoptMe_23 = Instance.new("TextButton"),
+	UICorner_46 = Instance.new("UICorner"),
+	Frame_25 = Instance.new("Frame"),
+	UICorner_47 = Instance.new("UICorner"),
+	TextLabel_27 = Instance.new("TextLabel"),
+	AdoptMe_24 = Instance.new("TextButton"),
+	UICorner_48 = Instance.new("UICorner"),
+	Frame_26 = Instance.new("Frame"),
+	UICorner_49 = Instance.new("UICorner"),
+	TextLabel_28 = Instance.new("TextLabel"),
+	AdoptMe_25 = Instance.new("TextButton"),
+	UICorner_50 = Instance.new("UICorner"),
+	Frame_27 = Instance.new("Frame"),
+	UICorner_51 = Instance.new("UICorner"),
+	TextLabel_29 = Instance.new("TextLabel"),
+	AdoptMe_26 = Instance.new("TextButton"),
+	UICorner_52 = Instance.new("UICorner"),
+	Frame_28 = Instance.new("Frame"),
+	UICorner_53 = Instance.new("UICorner"),
+	TextLabel_30 = Instance.new("TextLabel"),
+	AdoptMe_27 = Instance.new("TextButton"),
+	UICorner_54 = Instance.new("UICorner"),
+	Frame_29 = Instance.new("Frame"),
+	UICorner_55 = Instance.new("UICorner"),
+	TextLabel_31 = Instance.new("TextLabel"),
+	AdoptMe_28 = Instance.new("TextButton"),
+	UICorner_56 = Instance.new("UICorner"),
+	Frame_30 = Instance.new("Frame"),
+	UICorner_57 = Instance.new("UICorner"),
+	TextLabel_32 = Instance.new("TextLabel"),
+	AdoptMe_29 = Instance.new("TextButton"),
+	UICorner_58 = Instance.new("UICorner"),
+	Frame_31 = Instance.new("Frame"),
+	UICorner_59 = Instance.new("UICorner"),
+	TappingSimulator = Instance.new("TextLabel"),
+	AdoptMe_30 = Instance.new("TextButton"),
+	UICorner_60 = Instance.new("UICorner"),
+	Frame_32 = Instance.new("Frame"),
+	UICorner_61 = Instance.new("UICorner"),
+	TextLabel_33 = Instance.new("TextLabel"),
+	AdoptMe_31 = Instance.new("TextButton"),
+	UICorner_62 = Instance.new("UICorner"),
+	Frame_33 = Instance.new("Frame"),
+	UICorner_63 = Instance.new("UICorner"),
+	TappingSimulator_2 = Instance.new("TextLabel"),
+	AdoptMe_32 = Instance.new("TextButton"),
+	UICorner_64 = Instance.new("UICorner"),
+	Frame_34 = Instance.new("Frame"),
+	UICorner_65 = Instance.new("UICorner"),
+	TextLabel_34 = Instance.new("TextLabel"),
+	AdoptMe_33 = Instance.new("TextButton"),
+	UICorner_66 = Instance.new("UICorner"),
+	TextButton = Instance.new("TextButton"),
+	backspace = Instance.new("ImageButton"),
+	TextButton_2 = Instance.new("TextButton"),
+	person = Instance.new("ImageButton"),
+	shub = Instance.new("TextButton"),
+	note = Instance.new("ImageButton"),
+	TextLabel_35 = Instance.new("TextLabel"),
+	TextLabel_36 = Instance.new("TextLabel"),
+	TextLabel_37 = Instance.new("TextLabel"),
+	TextLabel_38 = Instance.new("TextLabel"),
+	TextButton_3 = Instance.new("TextButton"),
+	book = Instance.new("ImageButton"),
+	keysystem = Instance.new("Frame"),
+	keysystem_2 = Instance.new("Frame"),
+	Frame_35 = Instance.new("Frame"),
+	UICorner_67 = Instance.new("UICorner"),
+	TextLabel_39 = Instance.new("TextLabel"),
+	TextLabel_40 = Instance.new("TextLabel"),
+	TextLabel_41 = Instance.new("TextLabel"),
+	Frame_36 = Instance.new("Frame"),
+	UICorner_68 = Instance.new("UICorner"),
+	TextLabel_42 = Instance.new("TextLabel"),
+	TextLabel_43 = Instance.new("TextLabel"),
+	Frame_37 = Instance.new("Frame"),
+	UICorner_69 = Instance.new("UICorner"),
+	TextLabel_44 = Instance.new("TextLabel"),
+	TextLabel_45 = Instance.new("TextLabel"),
+	TextLabel_46 = Instance.new("TextLabel"),
+	TextLabel_47 = Instance.new("TextLabel"),
+	TextLabel_48 = Instance.new("TextLabel"),
+	TextLabel_49 = Instance.new("TextLabel"),
+	TextLabel_50 = Instance.new("TextLabel"),
+	TextButton_4 = Instance.new("TextButton"),
+	UICorner_70 = Instance.new("UICorner"),
+	TextButton_5 = Instance.new("TextButton"),
+	UICorner_71 = Instance.new("UICorner"),
+	TextBox = Instance.new("TextBox"),
+	UICorner_72 = Instance.new("UICorner"),
+	TextLabel_51 = Instance.new("TextLabel"),
+}
+
+--Properties:
+
+ScreenGui.ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+ScreenGui.sw.Name = "sw"
+ScreenGui.sw.Parent = ScreenGui.ScreenGui
+ScreenGui.sw.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+ScreenGui.sw.Position = UDim2.new(0.312983662, 0, 0.0481347777, 0)
+ScreenGui.sw.Size = UDim2.new(0, 575, 0, 751)
+ScreenGui.sw.Visible = false
+
+ScreenGui.Frame.Parent = ScreenGui.sw
+ScreenGui.Frame.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+ScreenGui.Frame.BackgroundTransparency = 0.100
+ScreenGui.Frame.BorderSizePixel = 0
+ScreenGui.Frame.Position = UDim2.new(-0.397404045, 0, 0.000454198569, 0)
+ScreenGui.Frame.Size = UDim2.new(0, 229, 0, 753)
+
+ScreenGui.Menu.Name = "Menu"
+ScreenGui.Menu.Parent = ScreenGui.Frame
+ScreenGui.Menu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Menu.BackgroundTransparency = 1.000
+ScreenGui.Menu.Size = UDim2.new(0, 229, 0, 753)
+
+ScreenGui.AdminFrame.Name = "AdminFrame"
+ScreenGui.AdminFrame.Parent = ScreenGui.sw
+ScreenGui.AdminFrame.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+ScreenGui.AdminFrame.Position = UDim2.new(-0.000943019695, 0, 0.000454187713, 0)
+ScreenGui.AdminFrame.Size = UDim2.new(0, 575, 0, 749)
+ScreenGui.AdminFrame.Visible = false
+
+ScreenGui.Frame_2.Parent = ScreenGui.AdminFrame
+ScreenGui.Frame_2.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+ScreenGui.Frame_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScreenGui.Frame_2.Position = UDim2.new(0.553043485, 0, 0.0480990857, 0)
+ScreenGui.Frame_2.Size = UDim2.new(0, 219, 0, 214)
+
+ScreenGui.UICorner.Parent = ScreenGui.Frame_2
+
+ScreenGui.TextLabel.Parent = ScreenGui.Frame_2
+ScreenGui.TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel.BackgroundTransparency = 1.000
+ScreenGui.TextLabel.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+ScreenGui.TextLabel.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TextLabel.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel.Text = "Reviz"
+ScreenGui.TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel.TextSize = 35.000
+ScreenGui.TextLabel.TextWrapped = true
+
+ScreenGui.AdoptMe.Name = "Adopt Me"
+ScreenGui.AdoptMe.Parent = ScreenGui.Frame_2
+ScreenGui.AdoptMe.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AdoptMe.BackgroundTransparency = 0.400
+ScreenGui.AdoptMe.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+ScreenGui.AdoptMe.Size = UDim2.new(0, 204, 0, 49)
+ScreenGui.AdoptMe.Font = Enum.Font.SourceSansBold
+ScreenGui.AdoptMe.Text = "Press to load script"
+ScreenGui.AdoptMe.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AdoptMe.TextScaled = true
+ScreenGui.AdoptMe.TextSize = 37.000
+ScreenGui.AdoptMe.TextWrapped = true
+
+ScreenGui.UICorner_2.Parent = ScreenGui.AdoptMe
+
+ScreenGui.Frame_3.Parent = ScreenGui.AdminFrame
+ScreenGui.Frame_3.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+ScreenGui.Frame_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScreenGui.Frame_3.Position = UDim2.new(0.0660869777, 0, 0.0480990857, 0)
+ScreenGui.Frame_3.Size = UDim2.new(0, 219, 0, 214)
+
+ScreenGui.UICorner_3.Parent = ScreenGui.Frame_3
+
+ScreenGui.TextLabel_2.Parent = ScreenGui.Frame_3
+ScreenGui.TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_2.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_2.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+ScreenGui.TextLabel_2.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TextLabel_2.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_2.Text = "CMD-X"
+ScreenGui.TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_2.TextSize = 35.000
+ScreenGui.TextLabel_2.TextWrapped = true
+
+ScreenGui.AdoptMe_2.Name = "Adopt Me"
+ScreenGui.AdoptMe_2.Parent = ScreenGui.Frame_3
+ScreenGui.AdoptMe_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AdoptMe_2.BackgroundTransparency = 0.400
+ScreenGui.AdoptMe_2.Position = UDim2.new(0.0341941789, 0, 0.418666244, 0)
+ScreenGui.AdoptMe_2.Size = UDim2.new(0, 204, 0, 49)
+ScreenGui.AdoptMe_2.Font = Enum.Font.SourceSansBold
+ScreenGui.AdoptMe_2.Text = "Press to load script"
+ScreenGui.AdoptMe_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AdoptMe_2.TextScaled = true
+ScreenGui.AdoptMe_2.TextSize = 37.000
+ScreenGui.AdoptMe_2.TextWrapped = true
+
+ScreenGui.UICorner_4.Parent = ScreenGui.AdoptMe_2
+
+ScreenGui.Frame_4.Parent = ScreenGui.AdminFrame
+ScreenGui.Frame_4.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+ScreenGui.Frame_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScreenGui.Frame_4.Position = UDim2.new(0.0660869777, 0, 0.42892468, 0)
+ScreenGui.Frame_4.Size = UDim2.new(0, 219, 0, 214)
+
+ScreenGui.UICorner_5.Parent = ScreenGui.Frame_4
+
+ScreenGui.TextLabel_3.Parent = ScreenGui.Frame_4
+ScreenGui.TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_3.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_3.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+ScreenGui.TextLabel_3.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TextLabel_3.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_3.Text = "Fate`s"
+ScreenGui.TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_3.TextSize = 35.000
+ScreenGui.TextLabel_3.TextWrapped = true
+
+ScreenGui.AdoptMe_3.Name = "Adopt Me"
+ScreenGui.AdoptMe_3.Parent = ScreenGui.Frame_4
+ScreenGui.AdoptMe_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AdoptMe_3.BackgroundTransparency = 0.400
+ScreenGui.AdoptMe_3.Position = UDim2.new(0.0341941789, 0, 0.418666244, 0)
+ScreenGui.AdoptMe_3.Size = UDim2.new(0, 204, 0, 49)
+ScreenGui.AdoptMe_3.Font = Enum.Font.SourceSansBold
+ScreenGui.AdoptMe_3.Text = "Press to load script"
+ScreenGui.AdoptMe_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AdoptMe_3.TextScaled = true
+ScreenGui.AdoptMe_3.TextSize = 37.000
+ScreenGui.AdoptMe_3.TextWrapped = true
+
+ScreenGui.UICorner_6.Parent = ScreenGui.AdoptMe_3
+
+ScreenGui.Frame_5.Parent = ScreenGui.AdminFrame
+ScreenGui.Frame_5.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+ScreenGui.Frame_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScreenGui.Frame_5.Position = UDim2.new(0.553043485, 0, 0.42892468, 0)
+ScreenGui.Frame_5.Size = UDim2.new(0, 219, 0, 214)
+
+ScreenGui.UICorner_7.Parent = ScreenGui.Frame_5
+
+ScreenGui.TextLabel_4.Parent = ScreenGui.Frame_5
+ScreenGui.TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_4.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_4.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+ScreenGui.TextLabel_4.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TextLabel_4.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_4.Text = "Infinite Yield"
+ScreenGui.TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_4.TextSize = 35.000
+ScreenGui.TextLabel_4.TextWrapped = true
+
+ScreenGui.AdoptMe_4.Name = "Adopt Me"
+ScreenGui.AdoptMe_4.Parent = ScreenGui.Frame_5
+ScreenGui.AdoptMe_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AdoptMe_4.BackgroundTransparency = 0.400
+ScreenGui.AdoptMe_4.Position = UDim2.new(0.0341941789, 0, 0.418666244, 0)
+ScreenGui.AdoptMe_4.Size = UDim2.new(0, 204, 0, 49)
+ScreenGui.AdoptMe_4.Font = Enum.Font.SourceSansBold
+ScreenGui.AdoptMe_4.Text = "Press to load script"
+ScreenGui.AdoptMe_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AdoptMe_4.TextScaled = true
+ScreenGui.AdoptMe_4.TextSize = 37.000
+ScreenGui.AdoptMe_4.TextWrapped = true
+
+ScreenGui.UICorner_8.Parent = ScreenGui.AdoptMe_4
+
+ScreenGui.MainFrame.Name = "MainFrame"
+ScreenGui.MainFrame.Parent = ScreenGui.sw
+ScreenGui.MainFrame.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+ScreenGui.MainFrame.Position = UDim2.new(-0.000943019695, 0, 0.000454187713, 0)
+ScreenGui.MainFrame.Size = UDim2.new(0, 575, 0, 750)
+
+ScreenGui.DisplayName.Name = "DisplayName"
+ScreenGui.DisplayName.Parent = ScreenGui.MainFrame
+ScreenGui.DisplayName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.DisplayName.BackgroundTransparency = 1.000
+ScreenGui.DisplayName.Position = UDim2.new(0.289888024, 0, 0.16047436, 0)
+ScreenGui.DisplayName.Size = UDim2.new(0.37255016, 0, 0.0702739134, 0)
+ScreenGui.DisplayName.Font = Enum.Font.SourceSansBold
+ScreenGui.DisplayName.Text = "Name"
+ScreenGui.DisplayName.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.DisplayName.TextScaled = true
+ScreenGui.DisplayName.TextSize = 31.000
+ScreenGui.DisplayName.TextWrapped = true
+
+ScreenGui.UserName.Name = "UserName"
+ScreenGui.UserName.Parent = ScreenGui.MainFrame
+ScreenGui.UserName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.UserName.BackgroundTransparency = 1.000
+ScreenGui.UserName.Position = UDim2.new(0.370264441, 0, 1.21415293, 0)
+ScreenGui.UserName.Size = UDim2.new(0.26066947, 0, 0.215360254, 0)
+ScreenGui.UserName.Font = Enum.Font.GothamBold
+ScreenGui.UserName.Text = "Name"
+ScreenGui.UserName.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.UserName.TextSize = 11.000
+ScreenGui.UserName.TextWrapped = true
+
+ScreenGui.TextLabel_5.Parent = ScreenGui.MainFrame
+ScreenGui.TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_5.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_5.Position = UDim2.new(0.13554582, 0, 0.387683153, 0)
+ScreenGui.TextLabel_5.Size = UDim2.new(0, 417, 0, 76)
+ScreenGui.TextLabel_5.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_5.Text = "https://discord.gg/KXVtGWQAXs"
+ScreenGui.TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_5.TextSize = 35.000
+ScreenGui.TextLabel_5.TextWrapped = true
+
+ScreenGui.TextLabel_6.Parent = ScreenGui.MainFrame
+ScreenGui.TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_6.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_6.Position = UDim2.new(0.135204047, 0, 0.285471499, 0)
+ScreenGui.TextLabel_6.Size = UDim2.new(0, 417, 0, 76)
+ScreenGui.TextLabel_6.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_6.Text = "Discord Link:"
+ScreenGui.TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_6.TextScaled = true
+ScreenGui.TextLabel_6.TextSize = 14.000
+ScreenGui.TextLabel_6.TextWrapped = true
+
+ScreenGui.TextLabel_7.Parent = ScreenGui.MainFrame
+ScreenGui.TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_7.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_7.Position = UDim2.new(0.135204047, 0, 0.035138607, 0)
+ScreenGui.TextLabel_7.Size = UDim2.new(0, 417, 0, 76)
+ScreenGui.TextLabel_7.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_7.Text = "Welcome to SkynsWare"
+ScreenGui.TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_7.TextScaled = true
+ScreenGui.TextLabel_7.TextSize = 14.000
+ScreenGui.TextLabel_7.TextWrapped = true
+
+ScreenGui.HubsFrame.Name = "HubsFrame"
+ScreenGui.HubsFrame.Parent = ScreenGui.sw
+ScreenGui.HubsFrame.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+ScreenGui.HubsFrame.Position = UDim2.new(-0.000943019695, 0, 0.000454187713, 0)
+ScreenGui.HubsFrame.Size = UDim2.new(0, 575, 0, 752)
+ScreenGui.HubsFrame.Visible = false
+
+ScreenGui.Frame_6.Parent = ScreenGui.HubsFrame
+ScreenGui.Frame_6.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+ScreenGui.Frame_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScreenGui.Frame_6.Position = UDim2.new(0.0678260773, 0, 0.0480990894, 0)
+ScreenGui.Frame_6.Size = UDim2.new(0, 219, 0, 214)
+
+ScreenGui.UICorner_9.Parent = ScreenGui.Frame_6
+
+ScreenGui.TextLabel_8.Parent = ScreenGui.Frame_6
+ScreenGui.TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_8.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_8.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+ScreenGui.TextLabel_8.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TextLabel_8.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_8.Text = "Domain X"
+ScreenGui.TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_8.TextSize = 35.000
+ScreenGui.TextLabel_8.TextWrapped = true
+
+ScreenGui.AdoptMe_5.Name = "Adopt Me"
+ScreenGui.AdoptMe_5.Parent = ScreenGui.Frame_6
+ScreenGui.AdoptMe_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AdoptMe_5.BackgroundTransparency = 0.400
+ScreenGui.AdoptMe_5.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+ScreenGui.AdoptMe_5.Size = UDim2.new(0, 204, 0, 49)
+ScreenGui.AdoptMe_5.Font = Enum.Font.SourceSansBold
+ScreenGui.AdoptMe_5.Text = "Press to load script"
+ScreenGui.AdoptMe_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AdoptMe_5.TextScaled = true
+ScreenGui.AdoptMe_5.TextSize = 37.000
+ScreenGui.AdoptMe_5.TextWrapped = true
+
+ScreenGui.UICorner_10.Parent = ScreenGui.AdoptMe_5
+
+ScreenGui.Frame_7.Parent = ScreenGui.HubsFrame
+ScreenGui.Frame_7.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+ScreenGui.Frame_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScreenGui.Frame_7.Position = UDim2.new(0.547825992, 0, 0.667617321, 0)
+ScreenGui.Frame_7.Size = UDim2.new(0, 219, 0, 214)
+
+ScreenGui.UICorner_11.Parent = ScreenGui.Frame_7
+
+ScreenGui.TextLabel_9.Parent = ScreenGui.Frame_7
+ScreenGui.TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_9.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_9.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+ScreenGui.TextLabel_9.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TextLabel_9.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_9.Text = "Fathom Hub"
+ScreenGui.TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_9.TextSize = 35.000
+ScreenGui.TextLabel_9.TextWrapped = true
+
+ScreenGui.AdoptMe_6.Name = "Adopt Me"
+ScreenGui.AdoptMe_6.Parent = ScreenGui.Frame_7
+ScreenGui.AdoptMe_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AdoptMe_6.BackgroundTransparency = 0.400
+ScreenGui.AdoptMe_6.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+ScreenGui.AdoptMe_6.Size = UDim2.new(0, 204, 0, 49)
+ScreenGui.AdoptMe_6.Font = Enum.Font.SourceSansBold
+ScreenGui.AdoptMe_6.Text = "Press to load script"
+ScreenGui.AdoptMe_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AdoptMe_6.TextScaled = true
+ScreenGui.AdoptMe_6.TextSize = 37.000
+ScreenGui.AdoptMe_6.TextWrapped = true
+
+ScreenGui.UICorner_12.Parent = ScreenGui.AdoptMe_6
+
+ScreenGui.Frame_8.Parent = ScreenGui.HubsFrame
+ScreenGui.Frame_8.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+ScreenGui.Frame_8.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScreenGui.Frame_8.Position = UDim2.new(0.0713043213, 0, 0.667617321, 0)
+ScreenGui.Frame_8.Size = UDim2.new(0, 219, 0, 214)
+
+ScreenGui.UICorner_13.Parent = ScreenGui.Frame_8
+
+ScreenGui.TextLabel_10.Parent = ScreenGui.Frame_8
+ScreenGui.TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_10.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_10.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+ScreenGui.TextLabel_10.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TextLabel_10.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_10.Text = "VG Hub"
+ScreenGui.TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_10.TextSize = 35.000
+ScreenGui.TextLabel_10.TextWrapped = true
+
+ScreenGui.AdoptMe_7.Name = "Adopt Me"
+ScreenGui.AdoptMe_7.Parent = ScreenGui.Frame_8
+ScreenGui.AdoptMe_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AdoptMe_7.BackgroundTransparency = 0.400
+ScreenGui.AdoptMe_7.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+ScreenGui.AdoptMe_7.Size = UDim2.new(0, 204, 0, 49)
+ScreenGui.AdoptMe_7.Font = Enum.Font.SourceSansBold
+ScreenGui.AdoptMe_7.Text = "Press to load script"
+ScreenGui.AdoptMe_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AdoptMe_7.TextScaled = true
+ScreenGui.AdoptMe_7.TextSize = 37.000
+ScreenGui.AdoptMe_7.TextWrapped = true
+
+ScreenGui.UICorner_14.Parent = ScreenGui.AdoptMe_7
+
+ScreenGui.Frame_9.Parent = ScreenGui.HubsFrame
+ScreenGui.Frame_9.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+ScreenGui.Frame_9.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScreenGui.Frame_9.Position = UDim2.new(0.553043485, 0, 0.0480990857, 0)
+ScreenGui.Frame_9.Size = UDim2.new(0, 219, 0, 214)
+
+ScreenGui.UICorner_15.Parent = ScreenGui.Frame_9
+
+ScreenGui.TextLabel_11.Parent = ScreenGui.Frame_9
+ScreenGui.TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_11.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_11.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+ScreenGui.TextLabel_11.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TextLabel_11.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_11.Text = "Owl Hub"
+ScreenGui.TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_11.TextSize = 35.000
+ScreenGui.TextLabel_11.TextWrapped = true
+
+ScreenGui.AdoptMe_8.Name = "Adopt Me"
+ScreenGui.AdoptMe_8.Parent = ScreenGui.Frame_9
+ScreenGui.AdoptMe_8.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AdoptMe_8.BackgroundTransparency = 0.400
+ScreenGui.AdoptMe_8.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+ScreenGui.AdoptMe_8.Size = UDim2.new(0, 204, 0, 49)
+ScreenGui.AdoptMe_8.Font = Enum.Font.SourceSansBold
+ScreenGui.AdoptMe_8.Text = "Press to load script"
+ScreenGui.AdoptMe_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AdoptMe_8.TextScaled = true
+ScreenGui.AdoptMe_8.TextSize = 37.000
+ScreenGui.AdoptMe_8.TextWrapped = true
+
+ScreenGui.UICorner_16.Parent = ScreenGui.AdoptMe_8
+
+ScreenGui.GamesFrame.Name = "GamesFrame"
+ScreenGui.GamesFrame.Parent = ScreenGui.sw
+ScreenGui.GamesFrame.Active = true
+ScreenGui.GamesFrame.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+ScreenGui.GamesFrame.Size = UDim2.new(0, 575, 0, 753)
+ScreenGui.GamesFrame.Visible = false
+ScreenGui.GamesFrame.CanvasPosition = Vector2.new(0, 2400)
+ScreenGui.GamesFrame.CanvasSize = UDim2.new(0, 0, 5, 0)
+
+ScreenGui.Frame_10.Parent = ScreenGui.GamesFrame
+ScreenGui.Frame_10.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+ScreenGui.Frame_10.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScreenGui.Frame_10.Position = UDim2.new(0.0452173911, 0, 0.0046888832, 0)
+ScreenGui.Frame_10.Size = UDim2.new(0, 219, 0, 214)
+
+ScreenGui.UICorner_17.Parent = ScreenGui.Frame_10
+
+ScreenGui.TextLabel_12.Parent = ScreenGui.Frame_10
+ScreenGui.TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_12.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_12.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+ScreenGui.TextLabel_12.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TextLabel_12.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_12.Text = "Adopt Me"
+ScreenGui.TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_12.TextSize = 35.000
+ScreenGui.TextLabel_12.TextWrapped = true
+
+ScreenGui.AdoptMe_9.Name = "Adopt Me"
+ScreenGui.AdoptMe_9.Parent = ScreenGui.Frame_10
+ScreenGui.AdoptMe_9.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AdoptMe_9.BackgroundTransparency = 0.400
+ScreenGui.AdoptMe_9.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+ScreenGui.AdoptMe_9.Size = UDim2.new(0, 204, 0, 49)
+ScreenGui.AdoptMe_9.Font = Enum.Font.SourceSansBold
+ScreenGui.AdoptMe_9.Text = "Press to load script"
+ScreenGui.AdoptMe_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AdoptMe_9.TextScaled = true
+ScreenGui.AdoptMe_9.TextSize = 37.000
+ScreenGui.AdoptMe_9.TextWrapped = true
+
+ScreenGui.UICorner_18.Parent = ScreenGui.AdoptMe_9
+
+ScreenGui.Frame_11.Parent = ScreenGui.GamesFrame
+ScreenGui.Frame_11.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+ScreenGui.Frame_11.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScreenGui.Frame_11.Position = UDim2.new(0.52347827, 0, 0.0046888832, 0)
+ScreenGui.Frame_11.Size = UDim2.new(0, 219, 0, 214)
+
+ScreenGui.UICorner_19.Parent = ScreenGui.Frame_11
+
+ScreenGui.TextLabel_13.Parent = ScreenGui.Frame_11
+ScreenGui.TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_13.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_13.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+ScreenGui.TextLabel_13.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TextLabel_13.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_13.Text = "Anime Clicker"
+ScreenGui.TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_13.TextSize = 35.000
+ScreenGui.TextLabel_13.TextWrapped = true
+
+ScreenGui.AdoptMe_10.Name = "Adopt Me"
+ScreenGui.AdoptMe_10.Parent = ScreenGui.Frame_11
+ScreenGui.AdoptMe_10.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AdoptMe_10.BackgroundTransparency = 0.400
+ScreenGui.AdoptMe_10.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+ScreenGui.AdoptMe_10.Size = UDim2.new(0, 204, 0, 49)
+ScreenGui.AdoptMe_10.Font = Enum.Font.SourceSansBold
+ScreenGui.AdoptMe_10.Text = "Press to load script"
+ScreenGui.AdoptMe_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AdoptMe_10.TextScaled = true
+ScreenGui.AdoptMe_10.TextSize = 37.000
+ScreenGui.AdoptMe_10.TextWrapped = true
+
+ScreenGui.UICorner_20.Parent = ScreenGui.AdoptMe_10
+
+ScreenGui.Frame_12.Parent = ScreenGui.GamesFrame
+ScreenGui.Frame_12.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+ScreenGui.Frame_12.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScreenGui.Frame_12.Position = UDim2.new(0.0452173911, 0, 0.0750740096, 0)
+ScreenGui.Frame_12.Size = UDim2.new(0, 219, 0, 214)
+
+ScreenGui.UICorner_21.Parent = ScreenGui.Frame_12
+
+ScreenGui.TextLabel_14.Parent = ScreenGui.Frame_12
+ScreenGui.TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_14.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_14.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+ScreenGui.TextLabel_14.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TextLabel_14.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_14.Text = "Bee Swarm"
+ScreenGui.TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_14.TextSize = 35.000
+ScreenGui.TextLabel_14.TextWrapped = true
+
+ScreenGui.AdoptMe_11.Name = "Adopt Me"
+ScreenGui.AdoptMe_11.Parent = ScreenGui.Frame_12
+ScreenGui.AdoptMe_11.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AdoptMe_11.BackgroundTransparency = 0.400
+ScreenGui.AdoptMe_11.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+ScreenGui.AdoptMe_11.Size = UDim2.new(0, 204, 0, 49)
+ScreenGui.AdoptMe_11.Font = Enum.Font.SourceSansBold
+ScreenGui.AdoptMe_11.Text = "Press to load script"
+ScreenGui.AdoptMe_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AdoptMe_11.TextScaled = true
+ScreenGui.AdoptMe_11.TextSize = 37.000
+ScreenGui.AdoptMe_11.TextWrapped = true
+
+ScreenGui.UICorner_22.Parent = ScreenGui.AdoptMe_11
+
+ScreenGui.Frame_13.Parent = ScreenGui.GamesFrame
+ScreenGui.Frame_13.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+ScreenGui.Frame_13.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScreenGui.Frame_13.Position = UDim2.new(0.52347827, 0, 0.0750740096, 0)
+ScreenGui.Frame_13.Size = UDim2.new(0, 219, 0, 214)
+
+ScreenGui.UICorner_23.Parent = ScreenGui.Frame_13
+
+ScreenGui.TextLabel_15.Parent = ScreenGui.Frame_13
+ScreenGui.TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_15.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_15.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+ScreenGui.TextLabel_15.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TextLabel_15.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_15.Text = "Blox Fruits"
+ScreenGui.TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_15.TextSize = 35.000
+ScreenGui.TextLabel_15.TextWrapped = true
+
+ScreenGui.AdoptMe_12.Name = "Adopt Me"
+ScreenGui.AdoptMe_12.Parent = ScreenGui.Frame_13
+ScreenGui.AdoptMe_12.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AdoptMe_12.BackgroundTransparency = 0.400
+ScreenGui.AdoptMe_12.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+ScreenGui.AdoptMe_12.Size = UDim2.new(0, 204, 0, 49)
+ScreenGui.AdoptMe_12.Font = Enum.Font.SourceSansBold
+ScreenGui.AdoptMe_12.Text = "Press to load script"
+ScreenGui.AdoptMe_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AdoptMe_12.TextScaled = true
+ScreenGui.AdoptMe_12.TextSize = 37.000
+ScreenGui.AdoptMe_12.TextWrapped = true
+
+ScreenGui.UICorner_24.Parent = ScreenGui.AdoptMe_12
+
+ScreenGui.Frame_14.Parent = ScreenGui.GamesFrame
+ScreenGui.Frame_14.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+ScreenGui.Frame_14.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScreenGui.Frame_14.Position = UDim2.new(0.0452173911, 0, 0.143599913, 0)
+ScreenGui.Frame_14.Size = UDim2.new(0, 219, 0, 214)
+
+ScreenGui.UICorner_25.Parent = ScreenGui.Frame_14
+
+ScreenGui.TextLabel_16.Parent = ScreenGui.Frame_14
+ScreenGui.TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_16.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_16.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+ScreenGui.TextLabel_16.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TextLabel_16.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_16.Text = "Build A Boat"
+ScreenGui.TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_16.TextSize = 35.000
+ScreenGui.TextLabel_16.TextWrapped = true
+
+ScreenGui.AdoptMe_13.Name = "Adopt Me"
+ScreenGui.AdoptMe_13.Parent = ScreenGui.Frame_14
+ScreenGui.AdoptMe_13.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AdoptMe_13.BackgroundTransparency = 0.400
+ScreenGui.AdoptMe_13.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+ScreenGui.AdoptMe_13.Size = UDim2.new(0, 204, 0, 49)
+ScreenGui.AdoptMe_13.Font = Enum.Font.SourceSansBold
+ScreenGui.AdoptMe_13.Text = "Press to load script"
+ScreenGui.AdoptMe_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AdoptMe_13.TextScaled = true
+ScreenGui.AdoptMe_13.TextSize = 37.000
+ScreenGui.AdoptMe_13.TextWrapped = true
+
+ScreenGui.UICorner_26.Parent = ScreenGui.AdoptMe_13
+
+ScreenGui.Frame_15.Parent = ScreenGui.GamesFrame
+ScreenGui.Frame_15.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+ScreenGui.Frame_15.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScreenGui.Frame_15.Position = UDim2.new(0.52347827, 0, 0.143599913, 0)
+ScreenGui.Frame_15.Size = UDim2.new(0, 219, 0, 214)
+
+ScreenGui.UICorner_27.Parent = ScreenGui.Frame_15
+
+ScreenGui.TextLabel_17.Parent = ScreenGui.Frame_15
+ScreenGui.TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_17.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_17.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+ScreenGui.TextLabel_17.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TextLabel_17.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_17.Text = "Critical Legend"
+ScreenGui.TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_17.TextSize = 35.000
+ScreenGui.TextLabel_17.TextWrapped = true
+
+ScreenGui.AdoptMe_14.Name = "Adopt Me"
+ScreenGui.AdoptMe_14.Parent = ScreenGui.Frame_15
+ScreenGui.AdoptMe_14.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AdoptMe_14.BackgroundTransparency = 0.400
+ScreenGui.AdoptMe_14.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+ScreenGui.AdoptMe_14.Size = UDim2.new(0, 204, 0, 49)
+ScreenGui.AdoptMe_14.Font = Enum.Font.SourceSansBold
+ScreenGui.AdoptMe_14.Text = "Press to load script"
+ScreenGui.AdoptMe_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AdoptMe_14.TextScaled = true
+ScreenGui.AdoptMe_14.TextSize = 37.000
+ScreenGui.AdoptMe_14.TextWrapped = true
+
+ScreenGui.UICorner_28.Parent = ScreenGui.AdoptMe_14
+
+ScreenGui.Frame_16.Parent = ScreenGui.GamesFrame
+ScreenGui.Frame_16.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+ScreenGui.Frame_16.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScreenGui.Frame_16.Position = UDim2.new(0.52347827, 0, 0.212391406, 0)
+ScreenGui.Frame_16.Size = UDim2.new(0, 219, 0, 214)
+
+ScreenGui.UICorner_29.Parent = ScreenGui.Frame_16
+
+ScreenGui.TextLabel_18.Parent = ScreenGui.Frame_16
+ScreenGui.TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_18.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_18.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+ScreenGui.TextLabel_18.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TextLabel_18.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_18.Text = "Critical Legend"
+ScreenGui.TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_18.TextSize = 35.000
+ScreenGui.TextLabel_18.TextWrapped = true
+
+ScreenGui.AdoptMe_15.Name = "Adopt Me"
+ScreenGui.AdoptMe_15.Parent = ScreenGui.Frame_16
+ScreenGui.AdoptMe_15.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AdoptMe_15.BackgroundTransparency = 0.400
+ScreenGui.AdoptMe_15.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+ScreenGui.AdoptMe_15.Size = UDim2.new(0, 204, 0, 49)
+ScreenGui.AdoptMe_15.Font = Enum.Font.SourceSansBold
+ScreenGui.AdoptMe_15.Text = "Press to load script"
+ScreenGui.AdoptMe_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AdoptMe_15.TextScaled = true
+ScreenGui.AdoptMe_15.TextSize = 37.000
+ScreenGui.AdoptMe_15.TextWrapped = true
+
+ScreenGui.UICorner_30.Parent = ScreenGui.AdoptMe_15
+
+ScreenGui.Frame_17.Parent = ScreenGui.GamesFrame
+ScreenGui.Frame_17.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+ScreenGui.Frame_17.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScreenGui.Frame_17.Position = UDim2.new(0.0452173911, 0, 0.212391406, 0)
+ScreenGui.Frame_17.Size = UDim2.new(0, 219, 0, 214)
+
+ScreenGui.UICorner_31.Parent = ScreenGui.Frame_17
+
+ScreenGui.TextLabel_19.Parent = ScreenGui.Frame_17
+ScreenGui.TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_19.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_19.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+ScreenGui.TextLabel_19.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TextLabel_19.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_19.Text = "Build A Boat"
+ScreenGui.TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_19.TextSize = 35.000
+ScreenGui.TextLabel_19.TextWrapped = true
+
+ScreenGui.AdoptMe_16.Name = "Adopt Me"
+ScreenGui.AdoptMe_16.Parent = ScreenGui.Frame_17
+ScreenGui.AdoptMe_16.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AdoptMe_16.BackgroundTransparency = 0.400
+ScreenGui.AdoptMe_16.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+ScreenGui.AdoptMe_16.Size = UDim2.new(0, 204, 0, 49)
+ScreenGui.AdoptMe_16.Font = Enum.Font.SourceSansBold
+ScreenGui.AdoptMe_16.Text = "Press to load script"
+ScreenGui.AdoptMe_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AdoptMe_16.TextScaled = true
+ScreenGui.AdoptMe_16.TextSize = 37.000
+ScreenGui.AdoptMe_16.TextWrapped = true
+
+ScreenGui.UICorner_32.Parent = ScreenGui.AdoptMe_16
+
+ScreenGui.Frame_18.Parent = ScreenGui.GamesFrame
+ScreenGui.Frame_18.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+ScreenGui.Frame_18.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScreenGui.Frame_18.Position = UDim2.new(0.0452173911, 0, 0.280120492, 0)
+ScreenGui.Frame_18.Size = UDim2.new(0, 219, 0, 214)
+
+ScreenGui.UICorner_33.Parent = ScreenGui.Frame_18
+
+ScreenGui.TextLabel_20.Parent = ScreenGui.Frame_18
+ScreenGui.TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_20.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_20.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+ScreenGui.TextLabel_20.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TextLabel_20.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_20.Text = "Eating Simulator"
+ScreenGui.TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_20.TextSize = 35.000
+ScreenGui.TextLabel_20.TextWrapped = true
+
+ScreenGui.AdoptMe_17.Name = "Adopt Me"
+ScreenGui.AdoptMe_17.Parent = ScreenGui.Frame_18
+ScreenGui.AdoptMe_17.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AdoptMe_17.BackgroundTransparency = 0.400
+ScreenGui.AdoptMe_17.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+ScreenGui.AdoptMe_17.Size = UDim2.new(0, 204, 0, 49)
+ScreenGui.AdoptMe_17.Font = Enum.Font.SourceSansBold
+ScreenGui.AdoptMe_17.Text = "Press to load script"
+ScreenGui.AdoptMe_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AdoptMe_17.TextScaled = true
+ScreenGui.AdoptMe_17.TextSize = 37.000
+ScreenGui.AdoptMe_17.TextWrapped = true
+
+ScreenGui.UICorner_34.Parent = ScreenGui.AdoptMe_17
+
+ScreenGui.Frame_19.Parent = ScreenGui.GamesFrame
+ScreenGui.Frame_19.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+ScreenGui.Frame_19.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScreenGui.Frame_19.Position = UDim2.new(0.52347827, 0, 0.280120492, 0)
+ScreenGui.Frame_19.Size = UDim2.new(0, 219, 0, 214)
+
+ScreenGui.UICorner_35.Parent = ScreenGui.Frame_19
+
+ScreenGui.TextLabel_21.Parent = ScreenGui.Frame_19
+ScreenGui.TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_21.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_21.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+ScreenGui.TextLabel_21.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TextLabel_21.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_21.Text = "Factory Simulator"
+ScreenGui.TextLabel_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_21.TextScaled = true
+ScreenGui.TextLabel_21.TextSize = 35.000
+ScreenGui.TextLabel_21.TextWrapped = true
+
+ScreenGui.AdoptMe_18.Name = "Adopt Me"
+ScreenGui.AdoptMe_18.Parent = ScreenGui.Frame_19
+ScreenGui.AdoptMe_18.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AdoptMe_18.BackgroundTransparency = 0.400
+ScreenGui.AdoptMe_18.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+ScreenGui.AdoptMe_18.Size = UDim2.new(0, 204, 0, 49)
+ScreenGui.AdoptMe_18.Font = Enum.Font.SourceSansBold
+ScreenGui.AdoptMe_18.Text = "Press to load script"
+ScreenGui.AdoptMe_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AdoptMe_18.TextScaled = true
+ScreenGui.AdoptMe_18.TextSize = 37.000
+ScreenGui.AdoptMe_18.TextWrapped = true
+
+ScreenGui.UICorner_36.Parent = ScreenGui.AdoptMe_18
+
+ScreenGui.Frame_20.Parent = ScreenGui.GamesFrame
+ScreenGui.Frame_20.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+ScreenGui.Frame_20.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScreenGui.Frame_20.Position = UDim2.new(0.0452173911, 0, 0.344927937, 0)
+ScreenGui.Frame_20.Size = UDim2.new(0, 219, 0, 214)
+
+ScreenGui.UICorner_37.Parent = ScreenGui.Frame_20
+
+ScreenGui.TextLabel_22.Parent = ScreenGui.Frame_20
+ScreenGui.TextLabel_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_22.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_22.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+ScreenGui.TextLabel_22.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TextLabel_22.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_22.Text = "Lifting Simulator"
+ScreenGui.TextLabel_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_22.TextSize = 35.000
+ScreenGui.TextLabel_22.TextWrapped = true
+
+ScreenGui.AdoptMe_19.Name = "Adopt Me"
+ScreenGui.AdoptMe_19.Parent = ScreenGui.Frame_20
+ScreenGui.AdoptMe_19.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AdoptMe_19.BackgroundTransparency = 0.400
+ScreenGui.AdoptMe_19.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+ScreenGui.AdoptMe_19.Size = UDim2.new(0, 204, 0, 49)
+ScreenGui.AdoptMe_19.Font = Enum.Font.SourceSansBold
+ScreenGui.AdoptMe_19.Text = "Press to load script"
+ScreenGui.AdoptMe_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AdoptMe_19.TextScaled = true
+ScreenGui.AdoptMe_19.TextSize = 37.000
+ScreenGui.AdoptMe_19.TextWrapped = true
+
+ScreenGui.UICorner_38.Parent = ScreenGui.AdoptMe_19
+
+ScreenGui.Frame_21.Parent = ScreenGui.GamesFrame
+ScreenGui.Frame_21.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+ScreenGui.Frame_21.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScreenGui.Frame_21.Position = UDim2.new(0.52347827, 0, 0.344927937, 0)
+ScreenGui.Frame_21.Size = UDim2.new(0, 219, 0, 214)
+
+ScreenGui.UICorner_39.Parent = ScreenGui.Frame_21
+
+ScreenGui.TextLabel_23.Parent = ScreenGui.Frame_21
+ScreenGui.TextLabel_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_23.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_23.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+ScreenGui.TextLabel_23.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TextLabel_23.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_23.Text = "Loot Quest"
+ScreenGui.TextLabel_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_23.TextScaled = true
+ScreenGui.TextLabel_23.TextSize = 35.000
+ScreenGui.TextLabel_23.TextWrapped = true
+
+ScreenGui.AdoptMe_20.Name = "Adopt Me"
+ScreenGui.AdoptMe_20.Parent = ScreenGui.Frame_21
+ScreenGui.AdoptMe_20.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AdoptMe_20.BackgroundTransparency = 0.400
+ScreenGui.AdoptMe_20.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+ScreenGui.AdoptMe_20.Size = UDim2.new(0, 204, 0, 49)
+ScreenGui.AdoptMe_20.Font = Enum.Font.SourceSansBold
+ScreenGui.AdoptMe_20.Text = "Press to load script"
+ScreenGui.AdoptMe_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AdoptMe_20.TextScaled = true
+ScreenGui.AdoptMe_20.TextSize = 37.000
+ScreenGui.AdoptMe_20.TextWrapped = true
+
+ScreenGui.UICorner_40.Parent = ScreenGui.AdoptMe_20
+
+ScreenGui.Frame_22.Parent = ScreenGui.GamesFrame
+ScreenGui.Frame_22.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+ScreenGui.Frame_22.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScreenGui.Frame_22.Position = UDim2.new(0.0452173911, 0, 0.344927937, 0)
+ScreenGui.Frame_22.Size = UDim2.new(0, 219, 0, 214)
+
+ScreenGui.UICorner_41.Parent = ScreenGui.Frame_22
+
+ScreenGui.TextLabel_24.Parent = ScreenGui.Frame_22
+ScreenGui.TextLabel_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_24.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_24.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+ScreenGui.TextLabel_24.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TextLabel_24.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_24.Text = "Lifting Simulator"
+ScreenGui.TextLabel_24.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_24.TextSize = 35.000
+ScreenGui.TextLabel_24.TextWrapped = true
+
+ScreenGui.AdoptMe_21.Name = "Adopt Me"
+ScreenGui.AdoptMe_21.Parent = ScreenGui.Frame_22
+ScreenGui.AdoptMe_21.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AdoptMe_21.BackgroundTransparency = 0.400
+ScreenGui.AdoptMe_21.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+ScreenGui.AdoptMe_21.Size = UDim2.new(0, 204, 0, 49)
+ScreenGui.AdoptMe_21.Font = Enum.Font.SourceSansBold
+ScreenGui.AdoptMe_21.Text = "Press to load script"
+ScreenGui.AdoptMe_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AdoptMe_21.TextScaled = true
+ScreenGui.AdoptMe_21.TextSize = 37.000
+ScreenGui.AdoptMe_21.TextWrapped = true
+
+ScreenGui.UICorner_42.Parent = ScreenGui.AdoptMe_21
+
+ScreenGui.Frame_23.Parent = ScreenGui.GamesFrame
+ScreenGui.Frame_23.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+ScreenGui.Frame_23.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScreenGui.Frame_23.Position = UDim2.new(0.52347827, 0, 0.344927937, 0)
+ScreenGui.Frame_23.Size = UDim2.new(0, 219, 0, 214)
+
+ScreenGui.UICorner_43.Parent = ScreenGui.Frame_23
+
+ScreenGui.TextLabel_25.Parent = ScreenGui.Frame_23
+ScreenGui.TextLabel_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_25.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_25.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+ScreenGui.TextLabel_25.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TextLabel_25.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_25.Text = "Loot Quest"
+ScreenGui.TextLabel_25.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_25.TextScaled = true
+ScreenGui.TextLabel_25.TextSize = 35.000
+ScreenGui.TextLabel_25.TextWrapped = true
+
+ScreenGui.AdoptMe_22.Name = "Adopt Me"
+ScreenGui.AdoptMe_22.Parent = ScreenGui.Frame_23
+ScreenGui.AdoptMe_22.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AdoptMe_22.BackgroundTransparency = 0.400
+ScreenGui.AdoptMe_22.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+ScreenGui.AdoptMe_22.Size = UDim2.new(0, 204, 0, 49)
+ScreenGui.AdoptMe_22.Font = Enum.Font.SourceSansBold
+ScreenGui.AdoptMe_22.Text = "Press to load script"
+ScreenGui.AdoptMe_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AdoptMe_22.TextScaled = true
+ScreenGui.AdoptMe_22.TextSize = 37.000
+ScreenGui.AdoptMe_22.TextWrapped = true
+
+ScreenGui.UICorner_44.Parent = ScreenGui.AdoptMe_22
+
+ScreenGui.Frame_24.Parent = ScreenGui.GamesFrame
+ScreenGui.Frame_24.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+ScreenGui.Frame_24.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScreenGui.Frame_24.Position = UDim2.new(0.52347827, 0, 0.411329001, 0)
+ScreenGui.Frame_24.Size = UDim2.new(0, 219, 0, 214)
+
+ScreenGui.UICorner_45.Parent = ScreenGui.Frame_24
+
+ScreenGui.TextLabel_26.Parent = ScreenGui.Frame_24
+ScreenGui.TextLabel_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_26.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_26.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+ScreenGui.TextLabel_26.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TextLabel_26.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_26.Text = "Mad City"
+ScreenGui.TextLabel_26.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_26.TextScaled = true
+ScreenGui.TextLabel_26.TextSize = 35.000
+ScreenGui.TextLabel_26.TextWrapped = true
+
+ScreenGui.AdoptMe_23.Name = "Adopt Me"
+ScreenGui.AdoptMe_23.Parent = ScreenGui.Frame_24
+ScreenGui.AdoptMe_23.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AdoptMe_23.BackgroundTransparency = 0.400
+ScreenGui.AdoptMe_23.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+ScreenGui.AdoptMe_23.Size = UDim2.new(0, 204, 0, 49)
+ScreenGui.AdoptMe_23.Font = Enum.Font.SourceSansBold
+ScreenGui.AdoptMe_23.Text = "Press to load script"
+ScreenGui.AdoptMe_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AdoptMe_23.TextScaled = true
+ScreenGui.AdoptMe_23.TextSize = 37.000
+ScreenGui.AdoptMe_23.TextWrapped = true
+
+ScreenGui.UICorner_46.Parent = ScreenGui.AdoptMe_23
+
+ScreenGui.Frame_25.Parent = ScreenGui.GamesFrame
+ScreenGui.Frame_25.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+ScreenGui.Frame_25.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScreenGui.Frame_25.Position = UDim2.new(0.0452173911, 0, 0.411329001, 0)
+ScreenGui.Frame_25.Size = UDim2.new(0, 219, 0, 214)
+
+ScreenGui.UICorner_47.Parent = ScreenGui.Frame_25
+
+ScreenGui.TextLabel_27.Parent = ScreenGui.Frame_25
+ScreenGui.TextLabel_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_27.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_27.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+ScreenGui.TextLabel_27.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TextLabel_27.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_27.Text = "MM2"
+ScreenGui.TextLabel_27.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_27.TextSize = 35.000
+ScreenGui.TextLabel_27.TextWrapped = true
+
+ScreenGui.AdoptMe_24.Name = "Adopt Me"
+ScreenGui.AdoptMe_24.Parent = ScreenGui.Frame_25
+ScreenGui.AdoptMe_24.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AdoptMe_24.BackgroundTransparency = 0.400
+ScreenGui.AdoptMe_24.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+ScreenGui.AdoptMe_24.Size = UDim2.new(0, 204, 0, 49)
+ScreenGui.AdoptMe_24.Font = Enum.Font.SourceSansBold
+ScreenGui.AdoptMe_24.Text = "Press to load script"
+ScreenGui.AdoptMe_24.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AdoptMe_24.TextScaled = true
+ScreenGui.AdoptMe_24.TextSize = 37.000
+ScreenGui.AdoptMe_24.TextWrapped = true
+
+ScreenGui.UICorner_48.Parent = ScreenGui.AdoptMe_24
+
+ScreenGui.Frame_26.Parent = ScreenGui.GamesFrame
+ScreenGui.Frame_26.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+ScreenGui.Frame_26.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScreenGui.Frame_26.Position = UDim2.new(0.52347827, 0, 0.478792489, 0)
+ScreenGui.Frame_26.Size = UDim2.new(0, 219, 0, 214)
+
+ScreenGui.UICorner_49.Parent = ScreenGui.Frame_26
+
+ScreenGui.TextLabel_28.Parent = ScreenGui.Frame_26
+ScreenGui.TextLabel_28.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_28.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_28.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+ScreenGui.TextLabel_28.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TextLabel_28.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_28.Text = "No Jumping Difficulty Chart Obby"
+ScreenGui.TextLabel_28.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_28.TextScaled = true
+ScreenGui.TextLabel_28.TextSize = 35.000
+ScreenGui.TextLabel_28.TextWrapped = true
+
+ScreenGui.AdoptMe_25.Name = "Adopt Me"
+ScreenGui.AdoptMe_25.Parent = ScreenGui.Frame_26
+ScreenGui.AdoptMe_25.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AdoptMe_25.BackgroundTransparency = 0.400
+ScreenGui.AdoptMe_25.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+ScreenGui.AdoptMe_25.Size = UDim2.new(0, 204, 0, 49)
+ScreenGui.AdoptMe_25.Font = Enum.Font.SourceSansBold
+ScreenGui.AdoptMe_25.Text = "Press to load script"
+ScreenGui.AdoptMe_25.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AdoptMe_25.TextScaled = true
+ScreenGui.AdoptMe_25.TextSize = 37.000
+ScreenGui.AdoptMe_25.TextWrapped = true
+
+ScreenGui.UICorner_50.Parent = ScreenGui.AdoptMe_25
+
+ScreenGui.Frame_27.Parent = ScreenGui.GamesFrame
+ScreenGui.Frame_27.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+ScreenGui.Frame_27.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScreenGui.Frame_27.Position = UDim2.new(0.0452173911, 0, 0.478792489, 0)
+ScreenGui.Frame_27.Size = UDim2.new(0, 219, 0, 214)
+
+ScreenGui.UICorner_51.Parent = ScreenGui.Frame_27
+
+ScreenGui.TextLabel_29.Parent = ScreenGui.Frame_27
+ScreenGui.TextLabel_29.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_29.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_29.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+ScreenGui.TextLabel_29.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TextLabel_29.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_29.Text = "Magnet Simulator 2"
+ScreenGui.TextLabel_29.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_29.TextScaled = true
+ScreenGui.TextLabel_29.TextSize = 35.000
+ScreenGui.TextLabel_29.TextWrapped = true
+
+ScreenGui.AdoptMe_26.Name = "Adopt Me"
+ScreenGui.AdoptMe_26.Parent = ScreenGui.Frame_27
+ScreenGui.AdoptMe_26.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AdoptMe_26.BackgroundTransparency = 0.400
+ScreenGui.AdoptMe_26.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+ScreenGui.AdoptMe_26.Size = UDim2.new(0, 204, 0, 49)
+ScreenGui.AdoptMe_26.Font = Enum.Font.SourceSansBold
+ScreenGui.AdoptMe_26.Text = "Press to load script"
+ScreenGui.AdoptMe_26.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AdoptMe_26.TextScaled = true
+ScreenGui.AdoptMe_26.TextSize = 37.000
+ScreenGui.AdoptMe_26.TextWrapped = true
+
+ScreenGui.UICorner_52.Parent = ScreenGui.AdoptMe_26
+
+ScreenGui.Frame_28.Parent = ScreenGui.GamesFrame
+ScreenGui.Frame_28.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+ScreenGui.Frame_28.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScreenGui.Frame_28.Position = UDim2.new(0.518260896, 0, 0.543334305, 0)
+ScreenGui.Frame_28.Size = UDim2.new(0, 219, 0, 214)
+
+ScreenGui.UICorner_53.Parent = ScreenGui.Frame_28
+
+ScreenGui.TextLabel_30.Parent = ScreenGui.Frame_28
+ScreenGui.TextLabel_30.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_30.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_30.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+ScreenGui.TextLabel_30.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TextLabel_30.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_30.Text = "RPG Simulator"
+ScreenGui.TextLabel_30.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_30.TextScaled = true
+ScreenGui.TextLabel_30.TextSize = 35.000
+ScreenGui.TextLabel_30.TextWrapped = true
+
+ScreenGui.AdoptMe_27.Name = "Adopt Me"
+ScreenGui.AdoptMe_27.Parent = ScreenGui.Frame_28
+ScreenGui.AdoptMe_27.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AdoptMe_27.BackgroundTransparency = 0.400
+ScreenGui.AdoptMe_27.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+ScreenGui.AdoptMe_27.Size = UDim2.new(0, 204, 0, 49)
+ScreenGui.AdoptMe_27.Font = Enum.Font.SourceSansBold
+ScreenGui.AdoptMe_27.Text = "Press to load script"
+ScreenGui.AdoptMe_27.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AdoptMe_27.TextScaled = true
+ScreenGui.AdoptMe_27.TextSize = 37.000
+ScreenGui.AdoptMe_27.TextWrapped = true
+
+ScreenGui.UICorner_54.Parent = ScreenGui.AdoptMe_27
+
+ScreenGui.Frame_29.Parent = ScreenGui.GamesFrame
+ScreenGui.Frame_29.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+ScreenGui.Frame_29.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScreenGui.Frame_29.Position = UDim2.new(0.0399999991, 0, 0.543334305, 0)
+ScreenGui.Frame_29.Size = UDim2.new(0, 219, 0, 214)
+
+ScreenGui.UICorner_55.Parent = ScreenGui.Frame_29
+
+ScreenGui.TextLabel_31.Parent = ScreenGui.Frame_29
+ScreenGui.TextLabel_31.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_31.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_31.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+ScreenGui.TextLabel_31.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TextLabel_31.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_31.Text = "Pet Simulator X"
+ScreenGui.TextLabel_31.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_31.TextScaled = true
+ScreenGui.TextLabel_31.TextSize = 35.000
+ScreenGui.TextLabel_31.TextWrapped = true
+
+ScreenGui.AdoptMe_28.Name = "Adopt Me"
+ScreenGui.AdoptMe_28.Parent = ScreenGui.Frame_29
+ScreenGui.AdoptMe_28.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AdoptMe_28.BackgroundTransparency = 0.400
+ScreenGui.AdoptMe_28.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+ScreenGui.AdoptMe_28.Size = UDim2.new(0, 204, 0, 49)
+ScreenGui.AdoptMe_28.Font = Enum.Font.SourceSansBold
+ScreenGui.AdoptMe_28.Text = "Press to load script"
+ScreenGui.AdoptMe_28.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AdoptMe_28.TextScaled = true
+ScreenGui.AdoptMe_28.TextSize = 37.000
+ScreenGui.AdoptMe_28.TextWrapped = true
+
+ScreenGui.UICorner_56.Parent = ScreenGui.AdoptMe_28
+
+ScreenGui.Frame_30.Parent = ScreenGui.GamesFrame
+ScreenGui.Frame_30.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+ScreenGui.Frame_30.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScreenGui.Frame_30.Position = UDim2.new(0.52347827, 0, 0.607876122, 0)
+ScreenGui.Frame_30.Size = UDim2.new(0, 219, 0, 214)
+
+ScreenGui.UICorner_57.Parent = ScreenGui.Frame_30
+
+ScreenGui.TextLabel_32.Parent = ScreenGui.Frame_30
+ScreenGui.TextLabel_32.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_32.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_32.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+ScreenGui.TextLabel_32.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TextLabel_32.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_32.Text = "Tower Desense Simulator"
+ScreenGui.TextLabel_32.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_32.TextScaled = true
+ScreenGui.TextLabel_32.TextSize = 35.000
+ScreenGui.TextLabel_32.TextWrapped = true
+
+ScreenGui.AdoptMe_29.Name = "Adopt Me"
+ScreenGui.AdoptMe_29.Parent = ScreenGui.Frame_30
+ScreenGui.AdoptMe_29.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AdoptMe_29.BackgroundTransparency = 0.400
+ScreenGui.AdoptMe_29.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+ScreenGui.AdoptMe_29.Size = UDim2.new(0, 204, 0, 49)
+ScreenGui.AdoptMe_29.Font = Enum.Font.SourceSansBold
+ScreenGui.AdoptMe_29.Text = "Press to load script"
+ScreenGui.AdoptMe_29.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AdoptMe_29.TextScaled = true
+ScreenGui.AdoptMe_29.TextSize = 37.000
+ScreenGui.AdoptMe_29.TextWrapped = true
+
+ScreenGui.UICorner_58.Parent = ScreenGui.AdoptMe_29
+
+ScreenGui.Frame_31.Parent = ScreenGui.GamesFrame
+ScreenGui.Frame_31.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+ScreenGui.Frame_31.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScreenGui.Frame_31.Position = UDim2.new(0.0452173911, 0, 0.607876122, 0)
+ScreenGui.Frame_31.Size = UDim2.new(0, 219, 0, 214)
+
+ScreenGui.UICorner_59.Parent = ScreenGui.Frame_31
+
+ScreenGui.TappingSimulator.Name = "Tapping Simulator"
+ScreenGui.TappingSimulator.Parent = ScreenGui.Frame_31
+ScreenGui.TappingSimulator.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TappingSimulator.BackgroundTransparency = 1.000
+ScreenGui.TappingSimulator.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+ScreenGui.TappingSimulator.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TappingSimulator.Font = Enum.Font.SourceSansBold
+ScreenGui.TappingSimulator.Text = "Tapping Simulator"
+ScreenGui.TappingSimulator.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TappingSimulator.TextScaled = true
+ScreenGui.TappingSimulator.TextSize = 35.000
+ScreenGui.TappingSimulator.TextWrapped = true
+
+ScreenGui.AdoptMe_30.Name = "Adopt Me"
+ScreenGui.AdoptMe_30.Parent = ScreenGui.Frame_31
+ScreenGui.AdoptMe_30.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AdoptMe_30.BackgroundTransparency = 0.400
+ScreenGui.AdoptMe_30.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+ScreenGui.AdoptMe_30.Size = UDim2.new(0, 204, 0, 49)
+ScreenGui.AdoptMe_30.Font = Enum.Font.SourceSansBold
+ScreenGui.AdoptMe_30.Text = "Press to load script"
+ScreenGui.AdoptMe_30.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AdoptMe_30.TextScaled = true
+ScreenGui.AdoptMe_30.TextSize = 37.000
+ScreenGui.AdoptMe_30.TextWrapped = true
+
+ScreenGui.UICorner_60.Parent = ScreenGui.AdoptMe_30
+
+ScreenGui.Frame_32.Parent = ScreenGui.GamesFrame
+ScreenGui.Frame_32.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+ScreenGui.Frame_32.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScreenGui.Frame_32.Position = UDim2.new(0.52347827, 0, 0.671621144, 0)
+ScreenGui.Frame_32.Size = UDim2.new(0, 219, 0, 214)
+
+ScreenGui.UICorner_61.Parent = ScreenGui.Frame_32
+
+ScreenGui.TextLabel_33.Parent = ScreenGui.Frame_32
+ScreenGui.TextLabel_33.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_33.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_33.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+ScreenGui.TextLabel_33.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TextLabel_33.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_33.Text = "YBA"
+ScreenGui.TextLabel_33.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_33.TextScaled = true
+ScreenGui.TextLabel_33.TextSize = 35.000
+ScreenGui.TextLabel_33.TextWrapped = true
+
+ScreenGui.AdoptMe_31.Name = "Adopt Me"
+ScreenGui.AdoptMe_31.Parent = ScreenGui.Frame_32
+ScreenGui.AdoptMe_31.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AdoptMe_31.BackgroundTransparency = 0.400
+ScreenGui.AdoptMe_31.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+ScreenGui.AdoptMe_31.Size = UDim2.new(0, 204, 0, 49)
+ScreenGui.AdoptMe_31.Font = Enum.Font.SourceSansBold
+ScreenGui.AdoptMe_31.Text = "Press to load script"
+ScreenGui.AdoptMe_31.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AdoptMe_31.TextScaled = true
+ScreenGui.AdoptMe_31.TextSize = 37.000
+ScreenGui.AdoptMe_31.TextWrapped = true
+
+ScreenGui.UICorner_62.Parent = ScreenGui.AdoptMe_31
+
+ScreenGui.Frame_33.Parent = ScreenGui.GamesFrame
+ScreenGui.Frame_33.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+ScreenGui.Frame_33.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScreenGui.Frame_33.Position = UDim2.new(0.0452173911, 0, 0.671621144, 0)
+ScreenGui.Frame_33.Size = UDim2.new(0, 219, 0, 214)
+
+ScreenGui.UICorner_63.Parent = ScreenGui.Frame_33
+
+ScreenGui.TappingSimulator_2.Name = "Tapping Simulator"
+ScreenGui.TappingSimulator_2.Parent = ScreenGui.Frame_33
+ScreenGui.TappingSimulator_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TappingSimulator_2.BackgroundTransparency = 1.000
+ScreenGui.TappingSimulator_2.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+ScreenGui.TappingSimulator_2.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TappingSimulator_2.Font = Enum.Font.SourceSansBold
+ScreenGui.TappingSimulator_2.Text = "Tower Of Hell"
+ScreenGui.TappingSimulator_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TappingSimulator_2.TextScaled = true
+ScreenGui.TappingSimulator_2.TextSize = 35.000
+ScreenGui.TappingSimulator_2.TextWrapped = true
+
+ScreenGui.AdoptMe_32.Name = "Adopt Me"
+ScreenGui.AdoptMe_32.Parent = ScreenGui.Frame_33
+ScreenGui.AdoptMe_32.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AdoptMe_32.BackgroundTransparency = 0.400
+ScreenGui.AdoptMe_32.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+ScreenGui.AdoptMe_32.Size = UDim2.new(0, 204, 0, 49)
+ScreenGui.AdoptMe_32.Font = Enum.Font.SourceSansBold
+ScreenGui.AdoptMe_32.Text = "Press to load script"
+ScreenGui.AdoptMe_32.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AdoptMe_32.TextScaled = true
+ScreenGui.AdoptMe_32.TextSize = 37.000
+ScreenGui.AdoptMe_32.TextWrapped = true
+
+ScreenGui.UICorner_64.Parent = ScreenGui.AdoptMe_32
+
+ScreenGui.Frame_34.Parent = ScreenGui.GamesFrame
+ScreenGui.Frame_34.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+ScreenGui.Frame_34.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScreenGui.Frame_34.Position = UDim2.new(0.309565246, 0, 0.745922089, 0)
+ScreenGui.Frame_34.Size = UDim2.new(0, 219, 0, 214)
+
+ScreenGui.UICorner_65.Parent = ScreenGui.Frame_34
+
+ScreenGui.TextLabel_34.Parent = ScreenGui.Frame_34
+ScreenGui.TextLabel_34.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_34.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_34.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+ScreenGui.TextLabel_34.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TextLabel_34.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_34.Text = "Dark Life"
+ScreenGui.TextLabel_34.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_34.TextScaled = true
+ScreenGui.TextLabel_34.TextSize = 35.000
+ScreenGui.TextLabel_34.TextWrapped = true
+
+ScreenGui.AdoptMe_33.Name = "Adopt Me"
+ScreenGui.AdoptMe_33.Parent = ScreenGui.Frame_34
+ScreenGui.AdoptMe_33.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AdoptMe_33.BackgroundTransparency = 0.400
+ScreenGui.AdoptMe_33.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+ScreenGui.AdoptMe_33.Size = UDim2.new(0, 204, 0, 49)
+ScreenGui.AdoptMe_33.Font = Enum.Font.SourceSansBold
+ScreenGui.AdoptMe_33.Text = "Press to load script"
+ScreenGui.AdoptMe_33.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AdoptMe_33.TextScaled = true
+ScreenGui.AdoptMe_33.TextSize = 37.000
+ScreenGui.AdoptMe_33.TextWrapped = true
+
+ScreenGui.UICorner_66.Parent = ScreenGui.AdoptMe_33
+
+ScreenGui.TextButton.Parent = ScreenGui.sw
+ScreenGui.TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton.BackgroundTransparency = 1.000
+ScreenGui.TextButton.Position = UDim2.new(-0.374095321, 0, 0.391801655, 0)
+ScreenGui.TextButton.Size = UDim2.new(0, 147, 0, 21)
+ScreenGui.TextButton.Font = Enum.Font.SourceSansBold
+ScreenGui.TextButton.Text = "UnHook"
+ScreenGui.TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton.TextScaled = true
+ScreenGui.TextButton.TextSize = 14.000
+ScreenGui.TextButton.TextWrapped = true
+
+ScreenGui.backspace.Name = "backspace"
+ScreenGui.backspace.Parent = ScreenGui.TextButton
+ScreenGui.backspace.BackgroundTransparency = 1.000
+ScreenGui.backspace.Position = UDim2.new(0.0578231215, 0, -0.119047642, 0)
+ScreenGui.backspace.Size = UDim2.new(0, 25, 0, 25)
+ScreenGui.backspace.ZIndex = 2
+ScreenGui.backspace.Image = "rbxassetid://3926307971"
+ScreenGui.backspace.ImageColor3 = Color3.fromRGB(0, 98, 255)
+ScreenGui.backspace.ImageRectOffset = Vector2.new(84, 84)
+ScreenGui.backspace.ImageRectSize = Vector2.new(36, 36)
+
+ScreenGui.TextButton_2.Parent = ScreenGui.sw
+ScreenGui.TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_2.BackgroundTransparency = 1.000
+ScreenGui.TextButton_2.Position = UDim2.new(-0.346094579, 0, 0.229726449, 0)
+ScreenGui.TextButton_2.Size = UDim2.new(0, 147, 0, 21)
+ScreenGui.TextButton_2.Font = Enum.Font.SourceSansBold
+ScreenGui.TextButton_2.Text = "Admin Scripts"
+ScreenGui.TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_2.TextScaled = true
+ScreenGui.TextButton_2.TextSize = 14.000
+ScreenGui.TextButton_2.TextWrapped = true
+
+ScreenGui.person.Name = "person"
+ScreenGui.person.Parent = ScreenGui.TextButton_2
+ScreenGui.person.BackgroundTransparency = 1.000
+ScreenGui.person.LayoutOrder = 6
+ScreenGui.person.Position = UDim2.new(-0.0850340202, 0, -0.214285746, 0)
+ScreenGui.person.Size = UDim2.new(0, 25, 0, 25)
+ScreenGui.person.ZIndex = 2
+ScreenGui.person.Image = "rbxassetid://3926307971"
+ScreenGui.person.ImageColor3 = Color3.fromRGB(0, 98, 255)
+ScreenGui.person.ImageRectOffset = Vector2.new(884, 4)
+ScreenGui.person.ImageRectSize = Vector2.new(36, 36)
+
+ScreenGui.shub.Name = "shub"
+ScreenGui.shub.Parent = ScreenGui.sw
+ScreenGui.shub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.shub.BackgroundTransparency = 1.000
+ScreenGui.shub.Position = UDim2.new(-0.360235423, 0, 0.127504185, 0)
+ScreenGui.shub.Size = UDim2.new(0, 147, 0, 21)
+ScreenGui.shub.Font = Enum.Font.SourceSansBold
+ScreenGui.shub.Text = "Script Hubs"
+ScreenGui.shub.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.shub.TextScaled = true
+ScreenGui.shub.TextSize = 14.000
+ScreenGui.shub.TextWrapped = true
+
+ScreenGui.note.Name = "note"
+ScreenGui.note.Parent = ScreenGui.shub
+ScreenGui.note.BackgroundTransparency = 1.000
+ScreenGui.note.LayoutOrder = 3
+ScreenGui.note.Position = UDim2.new(-0.0170068033, 0, -0.214285716, 0)
+ScreenGui.note.Size = UDim2.new(0, 23, 0, 25)
+ScreenGui.note.ZIndex = 2
+ScreenGui.note.Image = "rbxassetid://3926305904"
+ScreenGui.note.ImageColor3 = Color3.fromRGB(0, 98, 255)
+ScreenGui.note.ImageRectOffset = Vector2.new(244, 924)
+ScreenGui.note.ImageRectSize = Vector2.new(36, 36)
+
+ScreenGui.TextLabel_35.Parent = ScreenGui.sw
+ScreenGui.TextLabel_35.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_35.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_35.Position = UDim2.new(-0.397372305, 0, 0.915020764, 0)
+ScreenGui.TextLabel_35.Size = UDim2.new(0, 228, 0, 66)
+ScreenGui.TextLabel_35.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_35.Text = "user version"
+ScreenGui.TextLabel_35.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_35.TextScaled = true
+ScreenGui.TextLabel_35.TextSize = 14.000
+ScreenGui.TextLabel_35.TextWrapped = true
+
+ScreenGui.TextLabel_36.Parent = ScreenGui.sw
+ScreenGui.TextLabel_36.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_36.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_36.BorderSizePixel = 0
+ScreenGui.TextLabel_36.Position = UDim2.new(-0.373647213, 0, 0, 0)
+ScreenGui.TextLabel_36.Size = UDim2.new(0, 200, 0, 50)
+ScreenGui.TextLabel_36.Font = Enum.Font.GothamBlack
+ScreenGui.TextLabel_36.Text = "SKYNSWARE"
+ScreenGui.TextLabel_36.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_36.TextScaled = true
+ScreenGui.TextLabel_36.TextSize = 14.000
+ScreenGui.TextLabel_36.TextStrokeColor3 = Color3.fromRGB(0, 98, 255)
+ScreenGui.TextLabel_36.TextStrokeTransparency = 0.610
+ScreenGui.TextLabel_36.TextWrapped = true
+
+ScreenGui.TextLabel_37.Parent = ScreenGui.sw
+ScreenGui.TextLabel_37.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_37.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_37.BorderSizePixel = 0
+ScreenGui.TextLabel_37.Position = UDim2.new(-0.460588515, 0, 0.0810163766, 0)
+ScreenGui.TextLabel_37.Size = UDim2.new(0, 147, 0, 21)
+ScreenGui.TextLabel_37.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_37.Text = "Scripts"
+ScreenGui.TextLabel_37.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_37.TextScaled = true
+ScreenGui.TextLabel_37.TextSize = 14.000
+ScreenGui.TextLabel_37.TextStrokeColor3 = Color3.fromRGB(0, 98, 255)
+ScreenGui.TextLabel_37.TextTransparency = 0.690
+ScreenGui.TextLabel_37.TextWrapped = true
+
+ScreenGui.TextLabel_38.Parent = ScreenGui.sw
+ScreenGui.TextLabel_38.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_38.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_38.BorderSizePixel = 0
+ScreenGui.TextLabel_38.Position = UDim2.new(-0.461325228, 0, 0.322755158, 0)
+ScreenGui.TextLabel_38.Size = UDim2.new(0, 147, 0, 21)
+ScreenGui.TextLabel_38.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_38.Text = "Other"
+ScreenGui.TextLabel_38.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_38.TextScaled = true
+ScreenGui.TextLabel_38.TextSize = 14.000
+ScreenGui.TextLabel_38.TextStrokeColor3 = Color3.fromRGB(0, 98, 255)
+ScreenGui.TextLabel_38.TextTransparency = 0.690
+ScreenGui.TextLabel_38.TextWrapped = true
+
+ScreenGui.TextButton_3.Parent = ScreenGui.sw
+ScreenGui.TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_3.BackgroundTransparency = 1.000
+ScreenGui.TextButton_3.Position = UDim2.new(-0.328665286, 0, 0.180617973, 0)
+ScreenGui.TextButton_3.Size = UDim2.new(0, 147, 0, 21)
+ScreenGui.TextButton_3.Font = Enum.Font.SourceSansBold
+ScreenGui.TextButton_3.Text = "Script for games"
+ScreenGui.TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_3.TextScaled = true
+ScreenGui.TextButton_3.TextSize = 14.000
+ScreenGui.TextButton_3.TextWrapped = true
+
+ScreenGui.book.Name = "book"
+ScreenGui.book.Parent = ScreenGui.TextButton_3
+ScreenGui.book.BackgroundTransparency = 1.000
+ScreenGui.book.Position = UDim2.new(-0.153061241, 0, -0.0238095373, 0)
+ScreenGui.book.Size = UDim2.new(0, 25, 0, 25)
+ScreenGui.book.ZIndex = 2
+ScreenGui.book.Image = "rbxassetid://3926307971"
+ScreenGui.book.ImageColor3 = Color3.fromRGB(0, 98, 255)
+ScreenGui.book.ImageRectOffset = Vector2.new(244, 364)
+ScreenGui.book.ImageRectSize = Vector2.new(36, 36)
+
+ScreenGui.keysystem.Name = "keysystem"
+ScreenGui.keysystem.Parent = ScreenGui.ScreenGui
+ScreenGui.keysystem.BackgroundColor3 = Color3.fromRGB(15, 15, 38)
+ScreenGui.keysystem.Position = UDim2.new(0.15821059, 0, 0.0306068901, 0)
+ScreenGui.keysystem.Size = UDim2.new(0, 771, 0, 723)
+
+ScreenGui.keysystem_2.Name = "keysystem"
+ScreenGui.keysystem_2.Parent = ScreenGui.keysystem
+ScreenGui.keysystem_2.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+ScreenGui.keysystem_2.BorderSizePixel = 0
+ScreenGui.keysystem_2.Position = UDim2.new(0.298288375, 0, -0.000918693084, 0)
+ScreenGui.keysystem_2.Size = UDim2.new(0, 541, 0, 723)
+
+ScreenGui.Frame_35.Parent = ScreenGui.keysystem_2
+ScreenGui.Frame_35.BackgroundColor3 = Color3.fromRGB(0, 18, 42)
+ScreenGui.Frame_35.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScreenGui.Frame_35.Position = UDim2.new(0.155640885, 0, 0.106441304, 0)
+ScreenGui.Frame_35.Size = UDim2.new(0, 391, 0, 199)
+
+ScreenGui.UICorner_67.Parent = ScreenGui.Frame_35
+
+ScreenGui.TextLabel_39.Parent = ScreenGui.Frame_35
+ScreenGui.TextLabel_39.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_39.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_39.Position = UDim2.new(0.0195494592, 0, -0.00396844, 0)
+ScreenGui.TextLabel_39.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TextLabel_39.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_39.Text = "SkynsWare info"
+ScreenGui.TextLabel_39.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_39.TextScaled = true
+ScreenGui.TextLabel_39.TextSize = 35.000
+ScreenGui.TextLabel_39.TextWrapped = true
+
+ScreenGui.TextLabel_40.Parent = ScreenGui.Frame_35
+ScreenGui.TextLabel_40.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_40.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_40.Position = UDim2.new(-0.000910844363, 0, 0.265310943, 0)
+ScreenGui.TextLabel_40.Size = UDim2.new(0, 391, 0, 140)
+ScreenGui.TextLabel_40.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_40.Text = "SkynsWare - this is script for roblox games, there are scripts in SkynsWare: Admin scripts, ScriptHub"
+ScreenGui.TextLabel_40.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_40.TextSize = 23.000
+ScreenGui.TextLabel_40.TextWrapped = true
+
+ScreenGui.TextLabel_41.Parent = ScreenGui.keysystem_2
+ScreenGui.TextLabel_41.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_41.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_41.Position = UDim2.new(-0.000759620219, 0, -0.00119817909, 0)
+ScreenGui.TextLabel_41.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TextLabel_41.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_41.Text = "loader"
+ScreenGui.TextLabel_41.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_41.TextScaled = true
+ScreenGui.TextLabel_41.TextSize = 35.000
+ScreenGui.TextLabel_41.TextWrapped = true
+
+ScreenGui.Frame_36.Parent = ScreenGui.keysystem_2
+ScreenGui.Frame_36.BackgroundColor3 = Color3.fromRGB(0, 18, 42)
+ScreenGui.Frame_36.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScreenGui.Frame_36.Position = UDim2.new(0.155640885, 0, 0.106441304, 0)
+ScreenGui.Frame_36.Size = UDim2.new(0, 391, 0, 199)
+
+ScreenGui.UICorner_68.Parent = ScreenGui.Frame_36
+
+ScreenGui.TextLabel_42.Parent = ScreenGui.Frame_36
+ScreenGui.TextLabel_42.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_42.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_42.Position = UDim2.new(0.0195494592, 0, -0.00396844, 0)
+ScreenGui.TextLabel_42.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TextLabel_42.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_42.Text = "SkynsWare info"
+ScreenGui.TextLabel_42.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_42.TextScaled = true
+ScreenGui.TextLabel_42.TextSize = 35.000
+ScreenGui.TextLabel_42.TextWrapped = true
+
+ScreenGui.TextLabel_43.Parent = ScreenGui.Frame_36
+ScreenGui.TextLabel_43.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_43.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_43.Position = UDim2.new(-0.000910844363, 0, 0.265310943, 0)
+ScreenGui.TextLabel_43.Size = UDim2.new(0, 391, 0, 140)
+ScreenGui.TextLabel_43.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_43.Text = "SkynsWare - this is script for roblox games, there are scripts in SkynsWare: Admin scripts, ScriptHub"
+ScreenGui.TextLabel_43.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_43.TextSize = 23.000
+ScreenGui.TextLabel_43.TextWrapped = true
+
+ScreenGui.Frame_37.Parent = ScreenGui.keysystem_2
+ScreenGui.Frame_37.BackgroundColor3 = Color3.fromRGB(0, 18, 42)
+ScreenGui.Frame_37.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScreenGui.Frame_37.Position = UDim2.new(0.155640885, 0, 0.420410872, 0)
+ScreenGui.Frame_37.Size = UDim2.new(0, 391, 0, 199)
+
+ScreenGui.UICorner_69.Parent = ScreenGui.Frame_37
+
+ScreenGui.TextLabel_44.Parent = ScreenGui.Frame_37
+ScreenGui.TextLabel_44.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_44.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_44.Position = UDim2.new(0.0195494592, 0, -0.00396844, 0)
+ScreenGui.TextLabel_44.Size = UDim2.new(0, 219, 0, 50)
+ScreenGui.TextLabel_44.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_44.Text = "Subscription Info"
+ScreenGui.TextLabel_44.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_44.TextScaled = true
+ScreenGui.TextLabel_44.TextSize = 35.000
+ScreenGui.TextLabel_44.TextWrapped = true
+
+ScreenGui.TextLabel_45.Parent = ScreenGui.Frame_37
+ScreenGui.TextLabel_45.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_45.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_45.BorderSizePixel = 0
+ScreenGui.TextLabel_45.Position = UDim2.new(-0.0327350162, 0, 0.30155617, 0)
+ScreenGui.TextLabel_45.Size = UDim2.new(0, 147, 0, 21)
+ScreenGui.TextLabel_45.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_45.Text = "Version: 1.1"
+ScreenGui.TextLabel_45.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_45.TextScaled = true
+ScreenGui.TextLabel_45.TextSize = 14.000
+ScreenGui.TextLabel_45.TextStrokeColor3 = Color3.fromRGB(0, 98, 255)
+ScreenGui.TextLabel_45.TextWrapped = true
+
+ScreenGui.TextLabel_46.Parent = ScreenGui.Frame_37
+ScreenGui.TextLabel_46.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_46.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_46.BorderSizePixel = 0
+ScreenGui.TextLabel_46.Position = UDim2.new(0.0388762355, 0, 0.442259669, 0)
+ScreenGui.TextLabel_46.Size = UDim2.new(0, 147, 0, 21)
+ScreenGui.TextLabel_46.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_46.Text = "Build type: Release"
+ScreenGui.TextLabel_46.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_46.TextScaled = true
+ScreenGui.TextLabel_46.TextSize = 17.000
+ScreenGui.TextLabel_46.TextStrokeColor3 = Color3.fromRGB(0, 98, 255)
+ScreenGui.TextLabel_46.TextWrapped = true
+
+ScreenGui.TextLabel_47.Parent = ScreenGui.Frame_37
+ScreenGui.TextLabel_47.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_47.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_47.BorderSizePixel = 0
+ScreenGui.TextLabel_47.Position = UDim2.new(-0.0173897073, 0, 0.497536063, 0)
+ScreenGui.TextLabel_47.Size = UDim2.new(0, 262, 0, 58)
+ScreenGui.TextLabel_47.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_47.Text = "Subscription till: 22.12.2222"
+ScreenGui.TextLabel_47.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_47.TextSize = 20.000
+ScreenGui.TextLabel_47.TextStrokeColor3 = Color3.fromRGB(0, 98, 255)
+ScreenGui.TextLabel_47.TextWrapped = true
+
+ScreenGui.TextLabel_48.Parent = ScreenGui.Frame_37
+ScreenGui.TextLabel_48.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_48.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_48.Position = UDim2.new(-0.0750796497, 0, 1.10155904, 0)
+ScreenGui.TextLabel_48.Size = UDim2.new(0, 449, 0, 74)
+ScreenGui.TextLabel_48.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_48.Text = "https://link-target.net/487240/key-for-skynsware"
+ScreenGui.TextLabel_48.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_48.TextScaled = true
+ScreenGui.TextLabel_48.TextSize = 35.000
+ScreenGui.TextLabel_48.TextWrapped = true
+
+ScreenGui.TextLabel_49.Parent = ScreenGui.keysystem
+ScreenGui.TextLabel_49.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_49.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_49.BorderSizePixel = 0
+ScreenGui.TextLabel_49.Position = UDim2.new(0.0219429433, 0, 0.0169491526, 0)
+ScreenGui.TextLabel_49.Size = UDim2.new(0, 200, 0, 50)
+ScreenGui.TextLabel_49.Font = Enum.Font.GothamBlack
+ScreenGui.TextLabel_49.Text = "SKYNSWARE"
+ScreenGui.TextLabel_49.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_49.TextScaled = true
+ScreenGui.TextLabel_49.TextSize = 14.000
+ScreenGui.TextLabel_49.TextStrokeColor3 = Color3.fromRGB(0, 98, 255)
+ScreenGui.TextLabel_49.TextStrokeTransparency = 0.610
+ScreenGui.TextLabel_49.TextWrapped = true
+
+ScreenGui.TextLabel_50.Parent = ScreenGui.keysystem
+ScreenGui.TextLabel_50.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_50.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_50.BorderSizePixel = 0
+ScreenGui.TextLabel_50.Position = UDim2.new(-0.0480802879, 0, 0.0955260471, 0)
+ScreenGui.TextLabel_50.Size = UDim2.new(0, 147, 0, 21)
+ScreenGui.TextLabel_50.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_50.Text = "Types"
+ScreenGui.TextLabel_50.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_50.TextScaled = true
+ScreenGui.TextLabel_50.TextSize = 14.000
+ScreenGui.TextLabel_50.TextStrokeColor3 = Color3.fromRGB(0, 98, 255)
+ScreenGui.TextLabel_50.TextTransparency = 0.690
+ScreenGui.TextLabel_50.TextWrapped = true
+
+ScreenGui.TextButton_4.Parent = ScreenGui.keysystem
+ScreenGui.TextButton_4.BackgroundColor3 = Color3.fromRGB(1, 65, 93)
+ScreenGui.TextButton_4.Position = UDim2.new(0.0214948244, 0, 0.165840119, 0)
+ScreenGui.TextButton_4.Size = UDim2.new(0, 179, 0, 46)
+ScreenGui.TextButton_4.Font = Enum.Font.SourceSansBold
+ScreenGui.TextButton_4.Text = "SkynsWare               "
+ScreenGui.TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_4.TextSize = 26.000
+ScreenGui.TextButton_4.TextWrapped = true
+
+ScreenGui.UICorner_70.Parent = ScreenGui.TextButton_4
+
+ScreenGui.TextButton_5.Parent = ScreenGui.keysystem
+ScreenGui.TextButton_5.BackgroundColor3 = Color3.fromRGB(2, 179, 255)
+ScreenGui.TextButton_5.Position = UDim2.new(0.730167985, 0, 0.885114133, 0)
+ScreenGui.TextButton_5.Size = UDim2.new(0, 200, 0, 50)
+ScreenGui.TextButton_5.Font = Enum.Font.SourceSansBold
+ScreenGui.TextButton_5.Text = "Login"
+ScreenGui.TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextButton_5.TextSize = 29.000
+
+ScreenGui.UICorner_71.CornerRadius = UDim.new(0, 15)
+ScreenGui.UICorner_71.Parent = ScreenGui.TextButton_5
+
+ScreenGui.TextBox.Parent = ScreenGui.keysystem
+ScreenGui.TextBox.Active = false
+ScreenGui.TextBox.BackgroundColor3 = Color3.fromRGB(15, 15, 38)
+ScreenGui.TextBox.BackgroundTransparency = 0.100
+ScreenGui.TextBox.Position = UDim2.new(0.333810896, 0, 0.807204366, 0)
+ScreenGui.TextBox.Size = UDim2.new(0, 291, 0, 116)
+ScreenGui.TextBox.Font = Enum.Font.SourceSansBold
+ScreenGui.TextBox.Text = "Enter key"
+ScreenGui.TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextBox.TextScaled = true
+ScreenGui.TextBox.TextSize = 50.000
+ScreenGui.TextBox.TextWrapped = true
+
+ScreenGui.UICorner_72.CornerRadius = UDim.new(0, 20)
+ScreenGui.UICorner_72.Parent = ScreenGui.TextBox
+
+ScreenGui.TextLabel_51.Parent = ScreenGui.keysystem
+ScreenGui.TextLabel_51.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_51.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_51.BorderSizePixel = 0
+ScreenGui.TextLabel_51.Position = UDim2.new(0.0219429433, 0, 0.0169491526, 0)
+ScreenGui.TextLabel_51.Size = UDim2.new(0, 200, 0, 50)
+ScreenGui.TextLabel_51.Font = Enum.Font.GothamBlack
+ScreenGui.TextLabel_51.Text = "SKYNSWARE"
+ScreenGui.TextLabel_51.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_51.TextScaled = true
+ScreenGui.TextLabel_51.TextSize = 14.000
+ScreenGui.TextLabel_51.TextStrokeColor3 = Color3.fromRGB(0, 98, 255)
+ScreenGui.TextLabel_51.TextStrokeTransparency = 0.610
+ScreenGui.TextLabel_51.TextWrapped = true
+
+-- Scripts:
+
+local function BOQB_fake_script() -- ScreenGui.sw.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.sw)
+
+	local UIS = game:GetService('UserInputService')
+	
+	local frame = script.Parent
+	
+	
+	
+	local dragToggle = nil
+	
+	local dragSpeed = 0.25
+	
+	local dragStart = nil
+	
+	local startPos = nil
+	
+	
+	
+	local function updateInput(input)
+	
+		local delta = input.Position - dragStart
+	
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+	
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	
+	end
+	
+	
+	
+	frame.InputBegan:Connect(function(input)
+	
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+	
+			dragToggle = true
+	
+			dragStart = input.Position
+	
+			startPos = frame.Position
+	
+			input.Changed:Connect(function()
+	
+				if input.UserInputState == Enum.UserInputState.End then
+	
+					dragToggle = false
+	
+				end
+	
+			end)
+	
+		end
+	
+	end)
+	
+	
+	
+	UIS.InputChanged:Connect(function(input)
+	
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	
+			if dragToggle then
+	
+				updateInput(input)
+	
+			end
+	
+		end
+	
+	end)
+end
+coroutine.wrap(BOQB_fake_script)()
+local function HIBLH_fake_script() -- ScreenGui.AdoptMe.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.AdoptMe)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://pastebin.com/ibFPdiF7'))()
+	end)
+end
+coroutine.wrap(HIBLH_fake_script)()
+local function HYHN_fake_script() -- ScreenGui.AdoptMe_2.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source', true))()
+	end)
+end
+coroutine.wrap(HYHN_fake_script)()
+local function FNNMP_fake_script() -- ScreenGui.AdoptMe_3.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+	end)
+end
+coroutine.wrap(FNNMP_fake_script)()
+local function PGFGW_fake_script() -- ScreenGui.AdoptMe_4.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+	end)
+end
+coroutine.wrap(PGFGW_fake_script)()
+local function VRJYBP_fake_script() -- ScreenGui.MainFrame.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.MainFrame)
+
+	local frame = script.Parent
+	
+	local player = game.Players.LocalPlayer
+	
+	local userId = player.UserId
+	
+	frame.DisplayName.Text = player.DisplayName
+	frame.UserName.Text = "@".. player.Name
+end
+coroutine.wrap(VRJYBP_fake_script)()
+local function RJYCKOT_fake_script() -- ScreenGui.AdoptMe_5.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://shlex.dev/release/domainx/latest.lua',true))()
+	end)
+end
+coroutine.wrap(RJYCKOT_fake_script)()
+local function LBBWEWL_fake_script() -- ScreenGui.AdoptMe_6.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/UmhaEvTT",true))()
+	end)
+end
+coroutine.wrap(LBBWEWL_fake_script)()
+local function HPTH_fake_script() -- ScreenGui.AdoptMe_7.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+	end)
+end
+coroutine.wrap(HPTH_fake_script)()
+local function ZYBW_fake_script() -- ScreenGui.AdoptMe_8.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_8)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+	end)
+end
+coroutine.wrap(ZYBW_fake_script)()
+local function TEBPJR_fake_script() -- ScreenGui.AdoptMe_9.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_9)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/urmomjklol69/Adopt-Me-Gingerbread-Farm/main/Protected.lua", true))()
+	end)
+end
+coroutine.wrap(TEBPJR_fake_script)()
+local function XEEVL_fake_script() -- ScreenGui.AdoptMe_10.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_10)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/CheetoHub/main/Loader"))()
+	end)
+end
+coroutine.wrap(XEEVL_fake_script)()
+local function ALHVHS_fake_script() -- ScreenGui.AdoptMe_11.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_11)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Boxking776/kocmoc/main/kocmoc-remastered.lua"))()
+	end)
+end
+coroutine.wrap(ALHVHS_fake_script)()
+local function KABQONE_fake_script() -- ScreenGui.AdoptMe_12.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_12)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet"https://raw.githubusercontent.com/BaconLords/Random-Shit/main/OMG.lua")()
+	end)
+end
+coroutine.wrap(KABQONE_fake_script)()
+local function EKWH_fake_script() -- ScreenGui.AdoptMe_13.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_13)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/0YezNNRh",true))()
+	end)
+end
+coroutine.wrap(EKWH_fake_script)()
+local function OGQP_fake_script() -- ScreenGui.AdoptMe_14.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_14)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/CriticalLegendsCheetoHub/main/OpenSource"))()
+	end)
+end
+coroutine.wrap(OGQP_fake_script)()
+local function BFTMR_fake_script() -- ScreenGui.AdoptMe_15.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_15)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/CriticalLegendsCheetoHub/main/OpenSource"))()
+	end)
+end
+coroutine.wrap(BFTMR_fake_script)()
+local function FPOOVD_fake_script() -- ScreenGui.AdoptMe_16.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_16)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/0YezNNRh",true))()
+	end)
+end
+coroutine.wrap(FPOOVD_fake_script)()
+local function CDMA_fake_script() -- ScreenGui.AdoptMe_17.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_17)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet"https://pastebinp.com/raw/eccv9pgu")()
+	end)
+end
+coroutine.wrap(CDMA_fake_script)()
+local function QUDTGI_fake_script() -- ScreenGui.AdoptMe_18.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_18)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/PainfulDestroyer/FactorySim/main/FactorySim.lua"))()
+	end)
+end
+coroutine.wrap(QUDTGI_fake_script)()
+local function ZCKZI_fake_script() -- ScreenGui.AdoptMe_19.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_19)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/LiftingSim/main/LiftingSimulator.lua"))()
+	end)
+end
+coroutine.wrap(ZCKZI_fake_script)()
+local function YINQUE_fake_script() -- ScreenGui.AdoptMe_20.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_20)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/WetCheezit/Releases/main/LootQuest/Source.lua"))()
+	end)
+end
+coroutine.wrap(YINQUE_fake_script)()
+local function YYFXMB_fake_script() -- ScreenGui.AdoptMe_21.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_21)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/LiftingSim/main/LiftingSimulator.lua"))()
+	end)
+end
+coroutine.wrap(YYFXMB_fake_script)()
+local function NSPG_fake_script() -- ScreenGui.AdoptMe_22.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_22)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/WetCheezit/Releases/main/LootQuest/Source.lua"))()
+	end)
+end
+coroutine.wrap(NSPG_fake_script)()
+local function FAVGJCW_fake_script() -- ScreenGui.AdoptMe_23.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_23)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/castycheat/mad-city/main/Protected%20(25).lua"))()
+	end)
+end
+coroutine.wrap(FAVGJCW_fake_script)()
+local function OZPTV_fake_script() -- ScreenGui.AdoptMe_24.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_24)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+	end)
+end
+coroutine.wrap(OZPTV_fake_script)()
+local function FCFW_fake_script() -- ScreenGui.AdoptMe_25.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_25)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/2dgeneralspam1/lua-releases/main/scripts/No%20Jumping%20Difficulty%20Chart%20Obby.lua'))()
+	end)
+end
+coroutine.wrap(FCFW_fake_script)()
+local function OZQHO_fake_script() -- ScreenGui.AdoptMe_26.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_26)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/roxyrekt/HubORScript/main/Magnet_Simulator_2.lua"))()
+	end)
+end
+coroutine.wrap(OZQHO_fake_script)()
+local function YITXZQW_fake_script() -- ScreenGui.AdoptMe_27.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_27)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/laderite/zenx/main/scripts/RPG_Simulator.lua'))()
+	end)
+end
+coroutine.wrap(YITXZQW_fake_script)()
+local function FPJH_fake_script() -- ScreenGui.AdoptMe_28.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_28)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/BLACKGAMER1221/Pet-Simulator-X/main/BK%20Pet.lua"))()
+	end)
+end
+coroutine.wrap(FPJH_fake_script)()
+local function QBWKYDV_fake_script() -- ScreenGui.AdoptMe_29.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_29)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://banbus.cf/scripts/autofarmconfig"))()
+	end)
+end
+coroutine.wrap(QBWKYDV_fake_script)()
+local function SGUI_fake_script() -- ScreenGui.AdoptMe_30.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_30)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://arches-systems.com/loader.lua",true))()
+	end)
+end
+coroutine.wrap(SGUI_fake_script)()
+local function NAUOE_fake_script() -- ScreenGui.AdoptMe_31.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_31)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Tobias020108Back/YBA-AUT/main/YBA-GUI-Rewrite.lua"))()
+	end)
+end
+coroutine.wrap(NAUOE_fake_script)()
+local function MNSYV_fake_script() -- ScreenGui.AdoptMe_32.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_32)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/CheetoHub/main/Loader"))()
+	end)
+end
+coroutine.wrap(MNSYV_fake_script)()
+local function QCEM_fake_script() -- ScreenGui.AdoptMe_33.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.AdoptMe_33)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/NooVster/Darklife/main/Source"))()
+	end)
+end
+coroutine.wrap(QCEM_fake_script)()
+local function QURTP_fake_script() -- ScreenGui.TextButton.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(QURTP_fake_script)()
+local function YEVOL_fake_script() -- ScreenGui.TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.TextButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.MainFrame.Visible = false
+		script.Parent.Parent.HubsFrame.Visible = false
+		script.Parent.Parent.GamesFrame.Visible = false
+		script.Parent.Parent.AdminFrame.Visible = true
+	end)
+end
+coroutine.wrap(YEVOL_fake_script)()
+local function VQGE_fake_script() -- ScreenGui.shub.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.shub)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.MainFrame.Visible = false
+		script.Parent.Parent.HubsFrame.Visible = true
+		script.Parent.Parent.GamesFrame.Visible = false
+		script.Parent.Parent.AdminFrame.Visible = false
+	end)
+	
+	
+end
+coroutine.wrap(VQGE_fake_script)()
+local function UMOB_fake_script() -- ScreenGui.TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.TextButton_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.MainFrame.Visible = false
+		script.Parent.Parent.HubsFrame.Visible = false
+		script.Parent.Parent.GamesFrame.Visible = true
+		script.Parent.Parent.AdminFrame.Visible = false
+	end)
+end
+coroutine.wrap(UMOB_fake_script)()
+local function EBWRV_fake_script() -- ScreenGui.keysystem.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.keysystem)
+
+	local UIS = game:GetService('UserInputService')
+	
+	local frame = script.Parent
+	
+	
+	
+	local dragToggle = nil
+	
+	local dragSpeed = 0.25
+	
+	local dragStart = nil
+	
+	local startPos = nil
+	
+	
+	
+	local function updateInput(input)
+	
+		local delta = input.Position - dragStart
+	
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+	
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	
+	end
+	
+	
+	
+	frame.InputBegan:Connect(function(input)
+	
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+	
+			dragToggle = true
+	
+			dragStart = input.Position
+	
+			startPos = frame.Position
+	
+			input.Changed:Connect(function()
+	
+				if input.UserInputState == Enum.UserInputState.End then
+	
+					dragToggle = false
+	
+				end
+	
+			end)
+	
+		end
+	
+	end)
+	
+	
+	
+	UIS.InputChanged:Connect(function(input)
+	
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	
+			if dragToggle then
+	
+				updateInput(input)
+	
+			end
+	
+		end
+	
+	end)
+	
+	
+end
+coroutine.wrap(EBWRV_fake_script)()
+local function GREQF_fake_script() -- ScreenGui.TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.TextButton_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(GREQF_fake_script)()
+local function LDNJ_fake_script() -- ScreenGui.TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.TextButton_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.TextBox.Text == "freebebrageneratornotscam" then
+			script.Parent.Parent.Parent.keysystem.Visible = false
+			script.Parent.Parent.Parent.sw.Visible = true
+	
+		end
+	end)
+end
+coroutine.wrap(LDNJ_fake_script)()
